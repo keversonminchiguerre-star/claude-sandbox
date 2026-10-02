@@ -69,7 +69,7 @@ auditar cálculo ou argumentação de parte (coincidência ou divergência não 
 
 ## Redação (todas as peças)
 
-Linguagem formal, impessoal, terceira pessoa, simples e sem tom robótico. Ancorar cada documento
+Linguagem formal, impessoal, terceira pessoa, de tom cartorial, simples e sem tom robótico. Ancorar cada documento
 citado no Id do PJe. Equidistância absoluta. Nunca "erro do perito" (usar "ajuste de
 conformidade" ou "esclarecimento documental"); nunca "sonegados" (usar "não adimplidas").
 Sintetizar as decisões, nunca transcrevê-las em bloco. Não citar o que não foi usado (ex.: planilha

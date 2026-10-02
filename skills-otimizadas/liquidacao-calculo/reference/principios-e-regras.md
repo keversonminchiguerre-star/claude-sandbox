@@ -9,8 +9,8 @@
   título executivo é a soma harmonizada desses atos.
 - O perito trabalha para o Juízo, equidistante. Pedido, tese, planilha ou impugnação de parte só
   valem na exata medida em que o Juízo os acolheu.
-- A decisão prevalece sobre súmula, OJ, lei, doutrina e heurística de cálculo. Conflito real e
-  insuperável: remeter ao Juízo.
+- A decisão prevalece sobre súmula, OJ, lei, doutrina e heurística de cálculo. Conflito aparente:
+  prevalece o comando expresso. Conflito real e insuperável: remeter ao Juízo.
 - Limitação ao valor da inicial só com ordem EXPRESSA ("limites da lide" = recorte das verbas e
   parâmetros deferidos, não teto monetário automático).
 - Bases: CPC 156 (perito auxiliar do Juízo); CLT 879 §1º (vedado modificar ou inovar a sentença);
@@ -83,6 +83,8 @@ da inicial.
 ## Vieses a vigiar
 
 Incerto: "necessária validação do perito". Não inventar impugnação nem fazer análise
-confirmatória. Atenção a marco temporal errado e a reflexo implícito tratado como expresso.
+confirmatória. "Correção" de critério sem comando expresso na decisão é interpretação: rejeitar.
+Questionado sobre a própria análise: reavaliar de verdade, sem defender por defender; se a conta
+fecha, sustentar mostrando a prova. Atenção a marco temporal errado e a reflexo implícito tratado como expresso.
 Não reconstruir nem deduzir rubricas por conta própria nem qualificar natureza de verba: usar o
 que consta do holerite. Spot-check por amostragem cruzada antes de finalizar.
