@@ -32,7 +32,8 @@ Banco de Laudos.md (famílias e fórmulas-chave); pasta Laudo Técnico Pericial 
 
 ## Casamentos conhecidos (dispensam a busca)
 
-Lanchonete com banheiros, negativa: redação 140/118/119, molde 169. Hotel, camareira: 119.
+Lanchonete com banheiros, negativa: redação 140/118/119; molde: o mais recente do mesmo agente
+(ex.: 169). Hotel, camareira: 119.
 Clube ou igreja com possível grande circulação: 169 e 91 (Súmula 448 ao Juízo). Cozinha com
 calor: 172 e 149 (negativos com IBUTG) ou 113 e 114. Câmara fria em mercado: 151, 150, 163.
 Biológico hospitalar (qualquer função): consultar primeiro o "Estudo - Enquadramento de

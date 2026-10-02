@@ -42,6 +42,14 @@ leva é o modo de falha mais caro. Agente mencionado: procurar em TODAS as fonte
 documentos do processo, NRs e anexos, normas técnicas, acervo); norma sempre da fonte, nunca de
 memória.
 
+## Scripts das skills
+
+Ficam na pasta de cada skill (ex.: pericia-revisao/scripts/checar.py). Os caminhos relativos das
+instruções partem da pasta da própria skill; se falhar, localizar com
+`find / -name checar.py -path "*pericia-revisao*" 2>/dev/null`. Faltando biblioteca (python-docx,
+openpyxl, pdfplumber, Pillow): instalar com pip e seguir. Nunca pular a checagem por erro de
+caminho ou de biblioteca.
+
 ## Economia de contexto
 
 1. Buscar nos arquivos do projeto uma vez por assunto (agente, Anexo, precedente) em cada chat.
@@ -77,7 +85,8 @@ memória.
    insalubridade", que usa literalmente "do empregado/da empregada" (modelos 159, 173, 180, 210).
 7. Sr. e Sra. sempre com inicial maiúscula, em qualquer posição da frase.
 8. NR sem hífen no texto do Perito (NR 15, NR 06). Com hífen só em reprodução de texto das partes
-   ou do TST.
+   ou do TST e no boilerplate do acervo, que fica como está ("NR-15 da Portaria MTb n.º 3.214",
+   "NOVA NR-6 - EQUIPAMENTO...").
 9. Documento com Id: juntado nos autos. Sem Id: enviado por e-mail.
 10. Texto aprovado pelo Perito é imutável. Regenerar arquivo não altera texto validado.
 11. Contato permanente é critério exclusivo do Anexo 14 da NR 15. Nos demais Anexos o critério é
@@ -125,7 +134,7 @@ apenas como precedente e modelo (container físico, estrutura, redação, jurisp
 sugerir revisão, checklist anti-IA ou ajuste de formatação sobre arquivos do acervo. Revisão e
 correção valem só para pré-laudos e laudos em elaboração e arquivos gerados pelo Claude.
 
-## Fonte primária de datas e fatos do contrato
+## Fonte primária de datas e fatos do contrato (quesitos e esclarecimentos)
 
 Admissão, demissão e função: sempre dos Aspectos Laborais do laudo (Admissão, demissão e
 evolução de cargo, conforme TRCT), copiados literalmente. Nunca do PDF de quesitos ou de outra
@@ -226,8 +235,9 @@ Títulos ("Respostas aos quesitos", "Quesitos do Reclamante", "Quesitos da Recla
 esclarecimentos, "Respostas aos quesitos complementares da Reclamante.") em negrito, sem
 numeração. Linha em branco antes de cada enunciado. Enunciado Arial 11, sem negrito, transcrito
 literalmente com os erros, a numeração tal como veio da parte ("1.", "1)", "Quesito nº 1:"), a
-pontuação final (? ou .) e a caixa alta do original. "Resposta:" sempre assim (nunca RESPOSTA:). Linha em branco. "Resposta:" em Verdana 12 negrito e o texto em
-Verdana 12 regular na mesma linha (dois runs no mesmo parágrafo). Ordem: quesitos do Reclamante,
+pontuação final (? ou .) e a caixa alta do original. Linha em branco. "Resposta:" (nunca
+RESPOSTA:) em Verdana 12 negrito e o texto em Verdana 12 regular na mesma linha (dois runs no
+mesmo parágrafo). Ordem: quesitos do Reclamante,
 depois da(s) Reclamada(s) na ordem processual. Catálogo de respostas: skill pericia-quesitos.
 
 ## Encerramentos

@@ -29,7 +29,8 @@ REGEX = [
      re.compile(r"\b(empregad[oa]s?|obreir[oa]s?)\b", re.I)),
     ("RESPOSTA: em caixa alta (usar Resposta:)", re.compile(r"\bRESPOSTA:")),
     ("reclamante minúsculo", re.compile(r"\breclamante\b")),
-    ("NR com hífen (permitido só em citação)", re.compile(r"\bNR-\s?\d")),
+    ("NR com hífen (permitido só em citação de parte/TST)",
+     re.compile(r"(?<!NOVA )\bNR-\s?(?!15 da Portaria)\d+")),
     ("Sr./Sra. minúsculo", re.compile(r"(?<![A-Za-zÀ-ú])sra?\.\s", re.U)),
     ("aspas curvas (conferir se é citação permitida)", re.compile("[“”]")),
     ("placeholder", re.compile(r"\[(?!a confirmar)[^\]]{1,40}\]", re.I)),
@@ -39,10 +40,16 @@ REGEX = [
 ]
 
 
+def eh_enunciado(p):
+    """Enunciado de quesito (todo em Arial) é texto da parte: transcrição literal, não se corrige."""
+    runs = [r for r in p.runs if r.text.strip()]
+    return bool(runs) and all(r.font.name == "Arial" for r in runs)
+
+
 def ler(caminho):
     if caminho.lower().endswith(".docx"):
         from docx import Document
-        return [p.text for p in Document(caminho).paragraphs]
+        return ["" if eh_enunciado(p) else p.text for p in Document(caminho).paragraphs]
     with open(caminho, encoding="utf-8") as f:
         return f.read().split("\n")
 

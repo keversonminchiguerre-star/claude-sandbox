@@ -57,7 +57,7 @@ empregados da própria Reclamada naquele contrato (pedido, emenda, contratos dos
 terceirizados de outro contrato não são avaliados (pericia-laudo, Escopo).
 
 Distribuição dos documentos (laudo 210): Ficha de Registro, contrato, CTPS e TRCT só em Aspectos
-Laborais; LTCAT, PGR, PCMSO, PPRA, ASO e PPP só em Documentos evidenciados; fichas e comprovantes
+Laborais; LTCAT, PGR, PCMSO, PPRA, ASO, PPP e FISPQ só em Documentos evidenciados; fichas e comprovantes
 de EPI só na seção de EPI. Nunca duplicar.
 
 ## Seções que o pré-laudo fecha

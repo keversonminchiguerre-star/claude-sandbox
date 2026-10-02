@@ -16,9 +16,14 @@ from docx import Document
 
 def texto_fonte(caminho):
     if caminho.lower().endswith(".pdf"):
-        import pdfplumber
-        with pdfplumber.open(caminho) as pdf:
-            return "\n".join(p.extract_text() or "" for p in pdf.pages)
+        try:
+            import pdfplumber
+            with pdfplumber.open(caminho) as pdf:
+                return "\n".join(p.extract_text() or "" for p in pdf.pages)
+        except ImportError:
+            import subprocess
+            return subprocess.run(["pdftotext", "-layout", caminho, "-"], capture_output=True,
+                                  text=True, check=True).stdout
     with open(caminho, encoding="utf-8") as f:
         return f.read()
 

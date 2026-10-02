@@ -47,7 +47,8 @@ que o agente aparecer no chat. Periculosidade: avaliacao-nr16.
    determinados em audiência, com fundamento no art. 195 da CLT" (Keverson removeu no laudo 210).
 6. Diligência Pericial: data e SOMENTE o horário de início (regra geral desde 29/08/2026; nunca
    término nem horário agendado; laudos de 2024 com término não são modelo).
-7. Acompanharam a diligência: uma linha por participante, "Sr./Sra. Nome - Cargo", sem marcador.
+7. Acompanharam a diligência: uma linha por participante, "Sr./Sra. Nome - Cargo"; marcador nativo
+   do Word só se o laudo-base usar (nunca hífen ou travessão digitado como marcador).
    Quando o laudo-base agrupa (Pelo Reclamante / Pela Reclamada / Paradigmas e informantes / Não
    compareceram), seguir o agrupamento. Só o Reclamante representa o Reclamante; os demais são
    representantes ou funcionários da Reclamada. Nos casos novos, Keverson fornece os nomes um a

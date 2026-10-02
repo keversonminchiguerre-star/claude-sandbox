@@ -20,7 +20,8 @@ no acervo (Manifestação Impugnação 5 a 100, pasta Laudo Técnico Pericial), 
 
 ## Estrutura
 
-Cabeçalho e formatação do molde (pericia-docx). Destinatário e partes. Abertura: Perito, Id da
+Cabeçalho e formatação do molde (pericia-docx). Destinatário e identificação do processo como na
+manifestação-precedente (nos esclarecimentos, só "Processo nº", sem linhas de partes). Abertura: Perito, Id da
 intimação e finalidade. Corpo de um a três parágrafos. Encerramento: Termos em que, Pede e espera
 deferimento, Rio de Janeiro, data, nome, Perito do Juízo.
 
