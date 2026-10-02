@@ -51,8 +51,11 @@ que o agente aparecer no chat. Periculosidade: avaliacao-nr16.
    Quando o laudo-base agrupa (Pelo Reclamante / Pela Reclamada / Paradigmas e informantes / Não
    compareceram), seguir o agrupamento. Só o Reclamante representa o Reclamante; os demais são
    representantes ou funcionários da Reclamada. Nos casos novos, Keverson fornece os nomes um a
-   um: esperar o envio antes de montar a seção. Imagem da lista de presença: ver decisão
-   pendente no LEIA-ME. Nome manuscrito duvidoso: confirmar com Keverson antes de gravar.
+   um: esperar o envio antes de montar a seção. Logo após os nomes: a imagem da folha de presença
+   assinada (centralizada, ~5,6 pol de largura, spacing after 0) e, LOGO ABAIXO dela, a legenda
+   "Lista de Presença" (centralizada, sem negrito, after 0); depois, Aspectos Laborais (decisão de
+   Keverson, 02/10/2026). Sem foto da folha: só os nomes. Nome manuscrito duvidoso: confirmar com
+   Keverson antes de gravar.
 8. Aspectos Laborais: título guarda-chuva sem texto próprio, seguido dos subtítulos em negrito
    (mesmo nível) Admissão, demissão e evolução de cargo (com a linha solta, sem negrito, "Início
    do período imprescrito em [data]."), Jornada de trabalho, Descrição do local de trabalho.

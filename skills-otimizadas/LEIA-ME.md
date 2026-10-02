@@ -58,11 +58,10 @@ memória, recuperado por busca e sem garantia de ser encontrado. A economia vem 
 
 ## Pontos que ainda dependem de Keverson
 
-1. **Imagem da lista de presença**: quatro versões nas memórias (após "Acompanharam" sem título,
-   laudo 210; imagem + legenda "Lista de Presença" abaixo, formatacao-docx-laudo; legenda no
-   Registro fotográfico, laudo 63; sem imagem nos casos novos, Fluxo Processos Novos).
-2. **Impugnação só de advogado**: registrar expressamente (memória Esclarecimentos) ou não
-   mencionar (instrução antiga do Projeto).
+1. ~~Imagem da lista de presença~~: RESOLVIDO (02/10/2026), imagem após os nomes com a legenda
+   "Lista de Presença" abaixo.
+2. ~~Impugnação só de advogado~~: RESOLVIDO, registrar a ausência de peça técnica só quando não
+   há manifestação de assistente técnico.
 3. **Alinhamento dos títulos** (esquerda x justificado) e **marcador nativo em "Acompanharam"**:
    as memórias divergem; como a formatação é herdada do laudo-base, o efeito é pequeno, mas o
    `medir_acervo.py` resolve pela maioria.

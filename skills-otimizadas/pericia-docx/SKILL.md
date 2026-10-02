@@ -33,8 +33,9 @@ negrito + Perito do Juízo. Dados bancários em bloco de linhas à esquerda.
 ## Imagens
 
 Fotos vão dentro do DOCX, no Registro Fotográfico, centralizadas, 5.3 polegadas de largura, com
-legendas centralizadas sem negrito. Lista de Presença: logo após "Acompanharam a diligência",
-parágrafo em branco + imagem, SEM título (revisão de Keverson, laudo 210). O pós-processamento comprime (máx. 1400 px, JPEG 78;
+legendas centralizadas sem negrito. Lista de Presença: logo após os nomes de "Acompanharam a diligência",
+imagem centralizada (~5,6 pol, after 0) e, abaixo dela, a legenda "Lista de Presença" centralizada
+sem negrito (decisão de Keverson, 02/10/2026). O pós-processamento comprime (máx. 1400 px, JPEG 78;
 alvo abaixo de 2 MB com dez fotos).
 
 ## Procedimento

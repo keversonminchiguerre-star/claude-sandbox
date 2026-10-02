@@ -138,6 +138,13 @@ mesmo em negativa. Nunca em frio, calor, químicos ou atividade sem exposição 
 Periculosidade: frase fixa "Cumpre-me esclarecer que não é possível neutralizar a exposição
 periculosa com a utilização de EPI's."
 
+## Lista de presença no laudo (decisão de Keverson, 02/10/2026)
+
+Após os nomes de "Acompanharam a diligência": imagem da folha assinada, centralizada, e logo
+abaixo a legenda "Lista de Presença", centralizada, sem negrito. Prevalece sobre qualquer versão
+anterior (inclusive a da pericia-docx instalada, que punha o título antes da imagem). Sem foto da
+folha: só os nomes.
+
 ## Formatação: verificar no acervo, nunca generalizar de um laudo só (29/08/2026)
 
 Detalhe fino de formatação visto em um laudo-modelo (caixa de sigla, RESPOSTA x Resposta, negrito
