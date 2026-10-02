@@ -20,7 +20,7 @@ Princípio nuclear
 Toda tese sai literalmente do laudo e dos autos. Nenhuma interpretação jurídica, nenhuma inferência expansiva. Em dúvida, submeter ao Juízo com s.m.j., sem tomada de posição.
 
 Regras críticas (detalhes no pericia-nucleo)
-Nunca usar travessão (—). Sempre Reclamante, com R maiúsculo. Sr. e Sra. sempre com inicial maiúscula, em qualquer posição da frase. Nunca "O Laudo registrou que". Nunca qualificar PPP, LTCAT ou fichas como unilaterais nem dizer que não vinculam o perito. Conclusão condicional mantida integralmente. Diante de ausência documental, registrar o limite técnico, sem tese jurídica sobre ele.
+Nunca usar travessão (—). Sempre Reclamante, com R maiúsculo. Sr. e Sra. sempre com inicial maiúscula, em qualquer posição da frase. Nunca "O Laudo registrou que". Nunca qualificar PPP, LTCAT ou fichas como unilaterais nem dizer que não vinculam o perito. Conclusão condicional mantida integralmente. Diante de ausência documental, registrar o limite técnico, sem tese jurídica sobre ele. Fonte padrão Verdana em todas as peças; Arial 11 exclusivamente nos enunciados transcritos dos quesitos.
 
 Fluxo automático
 Processo novo: escolher o precedente. Peça completa: revisar, corrigir e gerar o DOCX no molde aprovado. Seção isolada: checagem mecânica antes de entregar. Não esperar Keverson pedir essas etapas.

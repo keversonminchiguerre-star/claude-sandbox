@@ -22,7 +22,8 @@ reconstruções manuais falharem.
 
 ## Impressão digital do molde (169)
 
-Corpo Verdana 12 justificado, espaçamento herdado do docDefaults (276), sem espaçamento direto.
+Mesmo molde para laudo, pré-laudo, esclarecimentos e manifestação. Arial 11 somente nos
+enunciados transcritos dos quesitos; todo o resto em Verdana. Corpo Verdana 12 justificado, espaçamento herdado do docDefaults (276), sem espaçamento direto.
 Separação entre blocos por linhas em branco, nunca por espaço de parágrafo. Títulos em negrito,
 justificados. Subtítulo adjacente ao título sem linha em branco. Cabeçalho, rodapé e contatos já
 estão no `scripts/gerar_base.py`. Quesitos no formato do pericia-nucleo (função Q). Conclusão sem

@@ -43,9 +43,27 @@ def trecho(texto, ini, fim, margem=40):
     return "..." + texto[max(0, ini - margem):fim + margem].replace("\n", " ") + "..."
 
 
+def checar_fontes(caminho):
+    """No .docx: Verdana é o padrão; Arial só em enunciado de quesito; Tahoma só em cabeçalho e
+    rodapé (que não entram aqui). Fonte herdada do estilo (None) é aceita."""
+    from docx import Document
+    achados = []
+    for n, p in enumerate(Document(caminho).paragraphs, 1):
+        for r in p.runs:
+            fonte = r.font.name
+            if not r.text.strip() or fonte in (None, "Verdana"):
+                continue
+            if fonte == "Arial":
+                if "Resposta:" in r.text or p.text.strip().startswith("Resposta:"):
+                    achados.append((n, "Resposta: deve ser Verdana, não Arial", trecho(r.text, 0, 60)))
+                continue
+            achados.append((n, f"fonte {fonte} (padrão é Verdana; Arial só em quesito)", trecho(r.text, 0, 60)))
+    return achados
+
+
 def main(caminho):
     pars = ler(caminho)
-    achados = []
+    achados = checar_fontes(caminho) if caminho.lower().endswith(".docx") else []
     for n, p in enumerate(pars, 1):
         baixo = p.lower()
         for termo in PROIBIDAS:

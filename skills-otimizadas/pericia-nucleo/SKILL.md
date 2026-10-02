@@ -102,6 +102,12 @@ mesmo em negativa. Nunca em frio, calor, químicos ou atividade sem exposição 
 Periculosidade: frase única "Não é possível neutralizar a exposição periculosa com a utilização
 de EPI's."
 
+## Fonte padrão
+
+Verdana em todas as peças (pré-laudo, laudo, esclarecimentos, manifestação), corpo 12. Arial
+(11) é usada exclusivamente nos enunciados transcritos dos quesitos, nada mais. Tahoma só no
+cabeçalho e rodapé do molde.
+
 ## Formato dos quesitos (laudo e esclarecimentos)
 
 Títulos de seção e de parte sem negrito. Linha em branco antes de cada enunciado. Enunciado
