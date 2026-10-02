@@ -68,17 +68,17 @@ memória, recuperado por busca e sem garantia de ser encontrado. A economia vem 
    `medir_acervo.py` resolve pela maioria.
 4. A memória "Insalubridade e Periculosidade" está vazia (só o título).
 
-## Antes de instalar: confira a versão que você usa
+## Versão conferida
 
-As memórias citam "pericia-judicial:pericia-revisao" (plugin) e um script `build_resumo.py` com
-seção "Local de trabalho (dia a dia)" na pericia-diligencia, que NÃO existem na cópia das skills
-lida aqui. A versão no seu Claude Desktop pode ser mais nova. Antes de substituir, confira se as
-skills que você usa (plugin pericia-judicial) têm conteúdo além do que foi analisado; se tiverem,
-mande essas versões para incorporar, em vez de sobrescrever.
+As datas das skills analisadas coincidem com as da conta (Configurações > Habilidades): diligência
+e pré-laudo 03/09, revisão e oitivas 29-30/08, laudo, quesitos, esclarecimentos e manifestação
+14/06, precedentes e docx 07/06, liquidação 04/06, avaliacao-nr16 30/05. O `build_resumo.py`
+citado na memória nunca foi publicado na skill; o script novo cobre a mesma função (ação coletiva
+e "Local de trabalho (dia a dia)").
 
 ## Como instalar (depois da conferência acima)
 
-1. Guarde uma cópia das versões atuais.
+1. Guarde uma cópia das versões atuais (menu ⋮ de cada skill, se houver opção de baixar).
 2. Crie a skill `pericia-nucleo`.
 3. Substitua pericia-laudo, pericia-revisao, pericia-quesitos, pericia-esclarecimentos,
    pericia-manifestacao, pericia-oitivas, pericia-pre-laudo, pericia-diligencia,

@@ -36,8 +36,9 @@ documentação apresentada, documentação não localizada, EPI); PONTOS DE ATEN
 
 Gerar com `scripts/resumo_diligencia.py` (formatação já embutida: Verdana 11, justificado, até
 duas páginas). Montar o dicionário `proc` com: numero, partes (lista de tuplas rótulo/valor),
-objetivo, diligencia, local_trabalho (opcional, com titulo_local e label_local), admissao (None
-em ação coletiva), sintese_inicial, sintese_contestacao, agentes, documentos,
+objetivo, diligencia, local_trabalho (seção "Local de trabalho (dia a dia)": onde o Reclamante
+efetivamente atuava, que pode diferir do endereço de sede/CNPJ; em ação coletiva, com
+titulo_local e label_local), admissao (None em ação coletiva), sintese_inicial, sintese_contestacao, agentes, documentos,
 documentos_ausentes (opcional), epi, particularidade, controvertido. Não ler o script: só
 executar.
 
