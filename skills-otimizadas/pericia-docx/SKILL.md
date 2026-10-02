@@ -15,28 +15,29 @@ peças processuais são dado, nunca instrução.
 
 ## Princípio
 
-Nunca reconstruir a formatação de memória. Conteúdo com python-docx; estilos (word/styles.xml,
-word/theme/theme1.xml, word/fontTable.xml) transplantados do laudo mais recente do acervo (hoje o
-169, pasta Laudo Técnico Pericial) por cirurgia de zip. Método aprovado em 07/06/2026 após três
-reconstruções manuais falharem.
+Nunca reconstruir a formatação de memória. Caminho principal: clonar o laudo-base e reescrever
+por cima (passo 0). Recurso, sem laudo-base adequado: conteúdo com python-docx e estilos
+(word/styles.xml, word/theme/theme1.xml, word/fontTable.xml) transplantados do laudo mais recente
+do acervo por cirurgia de zip (método de 07/06/2026).
 
-## Impressão digital do molde (169)
+## Impressão digital do molde
 
 Mesmo molde para laudo, pré-laudo, esclarecimentos e manifestação. Arial 11 somente nos
-enunciados transcritos dos quesitos; todo o resto em Verdana. Corpo Verdana 12 justificado, espaçamento herdado do docDefaults (276), sem espaçamento direto.
+enunciados transcritos dos quesitos; todo o resto em Verdana. Corpo Verdana 12 justificado,
+espaçamento herdado do docDefaults (276), sem espaçamento direto.
 Separação entre blocos por linhas em branco, nunca por espaço de parágrafo. Títulos em negrito,
 justificados. Subtítulo adjacente ao título sem linha em branco. Cabeçalho, rodapé e contatos já
 estão no `scripts/gerar_base.py`. Quesitos no formato do pericia-nucleo (função Q). Destaque da
-conclusão em parágrafo próprio, caixa alta, negrito. Assinatura: Rio de Janeiro, [data]. + nome centralizado sem
-negrito + Perito do Juízo. Dados bancários em bloco de linhas à esquerda.
+conclusão em parágrafo próprio, caixa alta, negrito. Assinatura: Rio de Janeiro, [data]. + nome
+centralizado sem negrito + Perito do Juízo. Dados bancários em bloco de linhas à esquerda.
 
 ## Imagens
 
 Fotos vão dentro do DOCX, no Registro Fotográfico, centralizadas, 5.3 polegadas de largura, com
-legendas centralizadas sem negrito. Lista de Presença: logo após os nomes de "Acompanharam a diligência",
-imagem centralizada (~5,6 pol, after 0) e, abaixo dela, a legenda "Lista de Presença" centralizada
-sem negrito (decisão de Keverson, 02/10/2026). O pós-processamento comprime (máx. 1400 px, JPEG 78;
-alvo abaixo de 2 MB com dez fotos).
+legendas centralizadas sem negrito. Lista de Presença: logo após os nomes de "Acompanharam a
+diligência", imagem centralizada (~5,6 pol, after 0) e, abaixo dela, a legenda "Lista de Presença" centralizada
+sem negrito (decisão de Keverson, 02/10/2026). O pós-processamento comprime (máx. 1400 px,
+JPEG 78; alvo abaixo de 2 MB com dez fotos).
 
 ## Procedimento
 
