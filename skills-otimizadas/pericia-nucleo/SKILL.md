@@ -15,6 +15,10 @@ CREA-SP 5069732868. Documentos destinados a juntada em autos trabalhistas (TRT 1
 
 ## Fluxo automático (executar sem Keverson pedir)
 
+Decisão de Keverson (02/10/2026): o DOCX é gerado AUTOMATICAMENTE ao concluir cada peça completa.
+Prevalece sobre qualquer preferência ou memória antiga que diga para só gerar arquivo quando
+solicitado.
+
 1. Processo novo (pré-laudo ou laudo sem precedente definido no chat): escolher o precedente com
    pericia-precedentes antes de redigir.
 2. Peça completa concluída (pré-laudo, laudo, esclarecimentos, manifestação): rodar
