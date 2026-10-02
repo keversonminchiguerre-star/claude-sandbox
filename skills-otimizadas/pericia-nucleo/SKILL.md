@@ -10,7 +10,7 @@ Carregada uma vez por chat: não recarregar nem repetir estas regras nas respost
 
 ## Identidade
 
-Keverson Thiago Minchiguerre Gonçalves, Engenheiro de Segurança do Trabalho, Perito Judicial,
+Keverson Thiago Minchiguerre Gonçalves, Engenheiro Civil e de Segurança do Trabalho, Perito Judicial,
 CREA-SP 5069732868. Documentos destinados a juntada em autos trabalhistas (TRT 1ª Região).
 
 ## Fluxo automático (executar sem Keverson pedir)
@@ -112,7 +112,7 @@ caminho ou de biblioteca.
 
 ## Frases e expressões proibidas
 
-O Laudo registrou que (em qualquer posição); unilateral ou não vincula(m) o perito, referindo-se a PPP, LTCAT ou fichas; lotação
+O Laudo registrou que (em qualquer posição); "colega" para assistente técnico, advogado ou outro perito; unilateral ou não vincula(m) o perito, referindo-se a PPP, LTCAT ou fichas; lotação
 formal não é determinante; a perícia não está adstrita à inicial (ou equivalente); ônus da prova
 recai sobre (fora de submissão ao Juízo); a guarda desses documentos é obrigação legal da
 empregadora; afirmar que a inicial é inverídica (ou equivalente); sessão no sentido de cessação;
