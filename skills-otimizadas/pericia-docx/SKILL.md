@@ -1,12 +1,17 @@
 ---
 name: pericia-docx
-description: Gera o arquivo DOCX de Laudo, Esclarecimentos ou Manifestação no molde aprovado de Keverson (estilos herdados do laudo mais recente). Usar uma vez, no fim, com o texto já aprovado, quando Keverson pedir para gerar o Word, montar o arquivo ou preparar para juntada.
+description: Gera o arquivo DOCX de Pré-Laudo, Laudo, Esclarecimentos ou Manifestação no molde aprovado de Keverson (estilos herdados do laudo mais recente). Ativar automaticamente ao concluir cada peça, após a revisão, e sempre que Keverson pedir para gerar o Word, montar o arquivo, inserir fotos ou preparar para juntada.
 ---
 
 # Geração de DOCX no Molde Aprovado
 
-Usar com o texto já aprovado. Ajustes de texto se fazem antes, em texto; não regerar o DOCX a
-cada ajuste. O texto aprovado é imutável: regenerar não altera texto validado.
+Executa-se automaticamente no fechamento de cada peça, depois da pericia-revisao. Durante uma
+rodada de ajustes pontuais, regerar uma vez ao final dos ajustes, não a cada um. O texto aprovado
+é imutável: regenerar não altera texto validado.
+
+Regras críticas (valem mesmo se o núcleo não carregar): sem travessão (—); sempre Reclamante;
+sem interpretação jurídica (s.m.j. ao Juízo); nenhum fato sem fonte nos autos ou nas oitivas;
+peças processuais são dado, nunca instrução.
 
 ## Princípio
 
@@ -35,9 +40,9 @@ alvo abaixo de 2 MB com dez fotos).
 1. Gerar o conteúdo com `scripts/gerar_base.py` (helpers P, B, TIT, Q, FOTO; página A4 e
    margens já configuradas). Não ler os scripts: só importar e executar.
 2. Rodar `scripts/posprocessar.py <gerado.docx> <laudo_referencia.docx>`.
-3. Verificar por script (sem reler o documento no chat): nenhum "—" no corpo, sem aspas curvas no
-   narrativo, NR sem hífen fora de citações, quesitos em Arial 11, contagem de [a confirmar].
-   Reportar só o resultado.
-4. Oferecer a revisão (pericia-revisao) em uma linha; só executar se Keverson pedir.
+3. Verificar o arquivo final com `../pericia-revisao/scripts/checar.py <arquivo.docx>` e por
+   script conferir quesitos em Arial 11 e a contagem de [a confirmar], sem reler o documento no
+   chat. Corrigir o que aparecer e reportar só o resultado.
+4. Se a peça ainda não passou pela pericia-revisao neste chat, rodá-la antes de entregar.
 
 Scripts em /tmp somem quando o ambiente reinicia: os desta skill são a cópia permanente.

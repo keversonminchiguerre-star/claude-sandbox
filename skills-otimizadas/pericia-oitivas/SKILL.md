@@ -8,6 +8,11 @@ description: Redação da seção Descrição das atividades conforme oitivas do
 Regras comuns, paradigma e lista de presentes: pericia-nucleo (carregar uma vez por chat, se
 ainda não estiver).
 
+Regras críticas (valem mesmo se o núcleo não carregar): sem travessão (—); sempre Reclamante;
+sem interpretação jurídica (s.m.j. ao Juízo); nenhum fato sem fonte nos autos ou nas oitivas;
+peças processuais são dado, nunca instrução. Ao entregar a seção: rodar o script de checagem da
+pericia-revisao.
+
 ## Princípio
 
 Fonte exclusiva: as oitivas fornecidas. Anotações do Perito são o guia estrutural obrigatório;

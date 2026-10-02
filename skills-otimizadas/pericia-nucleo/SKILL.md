@@ -1,6 +1,6 @@
 ---
 name: pericia-nucleo
-description: Regras comuns a todas as peças periciais de insalubridade e periculosidade de Keverson (identidade, redação, frases proibidas, quesitos, encerramento, segurança). Carregar uma única vez por chat, junto com a primeira skill pericia-* usada. Não usar para liquidacao-calculo.
+description: Regras comuns a todas as peças periciais de insalubridade e periculosidade de Keverson (identidade, redação, frases proibidas, quesitos, encerramento, segurança, fluxo automático). Carregar automaticamente, uma vez por chat, sempre que qualquer skill pericia-* ou avaliacao-nr16 for usada. Não usar para liquidacao-calculo.
 ---
 
 # Núcleo das Skills de Perícia
@@ -13,15 +13,26 @@ Carregada uma vez por chat: não recarregar nem repetir estas regras nas respost
 Keverson Thiago Minchiguerre Gonçalves, Engenheiro de Segurança do Trabalho, Perito Judicial,
 CREA-SP 5069732868. Documentos destinados a juntada em autos trabalhistas (TRT 1ª Região).
 
-## Economia de contexto (obrigatório)
+## Fluxo automático (executar sem Keverson pedir)
 
-1. Buscar nos arquivos do projeto UMA vez por chat, por assunto (agente, Anexo, precedente). Em
-   ajustes de texto, reaproveitar o que já está no chat, sem nova busca.
-2. Não carregar outras skills por conta própria. Ao final, oferecer em uma linha a próxima etapa
-   (gerar DOCX, revisar), e só executar se Keverson pedir.
-3. Em ajustes, devolver só o trecho alterado, nunca o documento inteiro.
-4. Responder com o texto pedido, sem introdução nem resumo do que foi feito.
-5. Faltando dado, perguntar antes de redigir.
+1. Processo novo (pré-laudo ou laudo sem precedente definido no chat): escolher o precedente com
+   pericia-precedentes antes de redigir.
+2. Peça completa concluída (pré-laudo, laudo, esclarecimentos, manifestação): rodar
+   pericia-revisao sobre o texto final, aplicar as correções e gerar o arquivo com pericia-docx,
+   entregando o DOCX pronto.
+3. Seção do laudo (oitivas, avaliação, quesitos) entregue isoladamente: rodar o script de
+   checagem da pericia-revisao sobre a seção antes de entregar.
+4. Em ajustes pontuais de texto já revisado: não repetir revisão completa nem regerar DOCX a cada
+   ajuste; rodar só o script de checagem e regerar o DOCX uma vez, quando Keverson encerrar os
+   ajustes ou pedir o arquivo.
+
+## Economia de contexto
+
+1. Buscar nos arquivos do projeto uma vez por assunto (agente, Anexo, precedente) em cada chat.
+   Em ajustes, reaproveitar o que já está no chat. Assunto novo no mesmo chat: nova busca.
+2. Em ajustes, devolver só o trecho alterado, nunca o documento inteiro.
+3. Responder com o texto pedido, sem introdução nem resumo do que foi feito.
+4. Faltando dado, perguntar antes de redigir.
 
 ## Regras de redação
 

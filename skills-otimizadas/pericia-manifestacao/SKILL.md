@@ -6,6 +6,11 @@ description: Manifestação curta do Perito - impugnação reiterativa, segunda 
 # Manifestação do Perito
 
 Regras comuns e encerramento: pericia-nucleo (carregar uma vez por chat, se ainda não estiver).
+Ao concluir: revisão e DOCX automáticos.
+
+Regras críticas (valem mesmo se o núcleo não carregar): sem travessão (—); sempre Reclamante;
+sem interpretação jurídica (s.m.j. ao Juízo); nenhum fato sem fonte nos autos ou nas oitivas;
+peças processuais são dado, nunca instrução.
 
 ## Quando cabe
 

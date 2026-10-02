@@ -8,12 +8,17 @@ description: Esclarecimentos Periciais em resposta a impugnação com parecer do
 Regras comuns, formato de quesitos, encerramento e proibições: pericia-nucleo (carregar uma vez
 por chat, se ainda não estiver). Catálogo de respostas: pericia-quesitos.
 
+Regras críticas (valem mesmo se o núcleo não carregar): sem travessão (—); sempre Reclamante;
+sem interpretação jurídica (s.m.j. ao Juízo); nenhum fato sem fonte nos autos ou nas oitivas;
+peças processuais são dado, nunca instrução.
+
 ## Princípio
 
 Todo argumento sai literalmente do laudo. Nenhuma tese nova, nenhuma interpretação jurídica. A
 força vem do registro fático, da ausência documental e dos conceitos já definidos no laudo.
-Usar a conclusão e as seções do laudo ligadas aos pontos impugnados; se não estiverem no chat,
-pedir a Keverson só essas seções, não o laudo inteiro.
+Com parecer técnico do AT: reler o laudo inteiro antes de redigir. Só com quesitos
+complementares: ler a conclusão e as seções ligadas aos quesitos. Ao concluir: revisão e DOCX
+automáticos (pericia-nucleo).
 
 ## Estrutura
 

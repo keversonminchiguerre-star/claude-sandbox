@@ -7,6 +7,10 @@ description: Avaliação técnica de periculosidade por subsunção aos Anexos d
 
 Regras comuns: pericia-nucleo (carregar uma vez por chat, se ainda não estiver).
 
+Regras críticas (valem mesmo se o núcleo não carregar): sem travessão (—); sempre Reclamante;
+sem interpretação jurídica (s.m.j. ao Juízo); nenhum fato sem fonte nos autos ou nas oitivas;
+peças processuais são dado, nunca instrução.
+
 ## Fonte normativa
 
 No início do caso, uma busca no projeto (project_knowledge_search) por Anexo aplicável, na NR 16

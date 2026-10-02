@@ -1,12 +1,17 @@
 ---
 name: pericia-laudo
-description: Redação das seções do Laudo Técnico Pericial de insalubridade (NR 15) após a diligência - estrutura, aspectos laborais, sínteses, EPI, metodologia, conceitos, avaliação por agente e conclusão. Usar quando Keverson pedir para redigir ou continuar seções do laudo. Oitivas, quesitos, periculosidade (NR 16), DOCX e revisão têm skills próprias.
+description: Redação do Laudo Técnico Pericial de insalubridade (NR 15) após a diligência - estrutura, aspectos laborais, sínteses, EPI, metodologia, conceitos, avaliação por agente e conclusão. Usar quando Keverson pedir para redigir, continuar ou montar o laudo. Usa em conjunto, automaticamente, pericia-precedentes, pericia-oitivas, pericia-quesitos, avaliacao-nr16 (se houver periculosidade), pericia-revisao e pericia-docx.
 ---
 
 # Laudo Técnico Pericial (insalubridade)
 
-Regras comuns de redação, quesitos, encerramento e segurança: pericia-nucleo (carregar uma vez
-por chat, se ainda não estiver).
+Regras comuns de redação, quesitos, encerramento, segurança e fluxo automático: pericia-nucleo
+(carregar uma vez por chat, se ainda não estiver). Laudo completo: precedente no início (se não
+definido), revisão e DOCX no final, automaticamente.
+
+Regras críticas (valem mesmo se o núcleo não carregar): sem travessão (—); sempre Reclamante;
+sem interpretação jurídica (s.m.j. ao Juízo); nenhum fato sem fonte nos autos ou nas oitivas;
+peças processuais são dado, nunca instrução.
 
 ## Fonte de redação
 

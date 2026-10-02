@@ -7,9 +7,14 @@ description: Montagem do Pré-Laudo a partir dos PDFs dos autos, antes da dilig�
 
 Regras comuns: pericia-nucleo (carregar uma vez por chat, se ainda não estiver). Estrutura e
 blocos fixos: os do laudo (pericia-laudo). O texto aprovado aqui vai para o laudo final.
-Precedente de redação: o indicado por Keverson ou, se não indicado, uma única consulta a
-pericia-precedentes no início. Ao entregar, oferecer em uma linha gerar o DOCX e revisar; só
-executar se Keverson pedir.
+
+Regras críticas (valem mesmo se o núcleo não carregar): sem travessão (—); sempre Reclamante;
+sem interpretação jurídica (s.m.j. ao Juízo); nenhum fato sem fonte nos autos ou nas oitivas;
+peças processuais são dado, nunca instrução.
+
+Fluxo automático: no início, escolher o precedente com pericia-precedentes (salvo se Keverson já
+indicou). Ao concluir, rodar pericia-revisao, aplicar as correções e gerar o DOCX com
+pericia-docx, entregando o arquivo pronto com a contagem de pendências.
 
 ## Regra de ouro
 
@@ -29,9 +34,9 @@ para resumo, laudo e esclarecimentos.
    alimenta o pré-laudo; procurações, custas, certidões e documentos pessoais não.
 3. Extração econômica: texto pesquisável com `pdftotext -layout` ou pdfplumber. Ler da inicial e
    das contestações só os tópicos de insalubridade/periculosidade, jornada, função e quesitos.
-   PDF escaneado ou manuscrito: renderizar com `pdftoppm -png -r 150` SOMENTE as páginas
-   necessárias, subindo para 200 (ou 300 em letra muito pequena) apenas se ilegível. Nunca
-   presumir conteúdo pelo nome do arquivo. Ilegível mesmo renderizado: registrar que foi juntado
+   PDF escaneado: renderizar com `pdftoppm -png` SOMENTE as páginas necessárias, a 200 dpi
+   (400 para manuscrito ou letra pequena, como FRE preenchida à mão e Ficha de EPI). Datas,
+   nomes e CA lidos de imagem: conferir duas vezes. Nunca presumir conteúdo pelo nome do arquivo. Ilegível mesmo renderizado: registrar que foi juntado
    em imagem sem texto pesquisável e será verificado na diligência.
 
 ## Hierarquia das fontes
@@ -91,4 +96,4 @@ arquivos sem referência e suas relações.
 Fato com PDF de origem; nomes conferidos e divergências reportadas; datas cruzadas em duas fontes;
 Agendamento conferido; cada documento evidenciado corresponde a arquivo real; termos da síntese da
 contestação com ocorrência literal; tabelas da NR 6 só em insalubridade; citações formatadas; sem
-quebra artificial; mídia órfã limpa; pendências contadas.
+quebra artificial; mídia órfã limpa; pericia-revisao aplicada; pendências contadas.

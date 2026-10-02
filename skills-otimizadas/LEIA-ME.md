@@ -4,22 +4,38 @@
 
 | | Antes | Depois |
 |---|---:|---:|
-| Texto das 12 skills (+ núcleo) | ~25.000 tokens | ~12.900 tokens (**-48%**) |
+| Texto das 12 skills (+ núcleo) | ~25.000 tokens | ~13.900 tokens (**-44%**) |
 | Descrições (vão em toda mensagem) | ~1.900 tokens | ~1.000 tokens (**-48%**) |
 | Bloco de segurança repetido | 8 cópias | 1 (núcleo) + lembrete curto na liquidação |
 | Código Python dentro da pericia-diligencia | ~2.100 tokens | 0 (movido para `scripts/`) |
 
-O ganho maior vem das mudanças de comportamento, que não aparecem na tabela:
+## Automação mantida (nada passou a depender de pedido)
 
-- **Busca no projeto uma vez por chat**, e não a cada resposta (pericia-laudo, avaliacao-nr16,
-  liquidacao-calculo).
-- **Sem encadeamento automático**: nenhuma skill carrega outra por conta própria. Ao fim de
-  cada etapa, o Claude oferece em uma linha "gerar DOCX?" ou "revisar?".
-- **Revisão responde só com os reprovados**, ou apenas "APROVADO".
-- **Esclarecimentos não releem o laudo inteiro**, só as seções impugnadas.
+| Momento | O que acontece sozinho |
+|---|---|
+| Processo novo | Escolha do precedente (pericia-precedentes) |
+| Peça completa pronta (pré-laudo, laudo, esclarecimentos, manifestação) | Revisão → correções aplicadas → DOCX gerado e conferido |
+| Seção isolada (oitivas, quesitos) | Checagem mecânica por script antes de entregar |
+| Ajustes pontuais | Checagem por script; DOCX regerado uma vez ao final dos ajustes |
+
+A economia vem de **fazer cada automação uma vez, no momento certo**, e não de cortá-la:
+
+- **Revisão em duas etapas.** O novo `pericia-revisao/scripts/checar.py` confere travessão,
+  frases proibidas, jargão, empregado/obreiro, NR com hífen, Sr./Sra. minúsculo, placeholders,
+  Markdown e pontuação duplicada **por script**, quase sem gastar tokens. O Claude lê só o que
+  exige julgamento (fragmentos de outro processo, interpretação jurídica, fidelidade dos
+  quesitos).
+- **Busca no projeto uma vez por assunto em cada chat**, e não a cada resposta.
+- **Revisão responde só com os reprovados** (já corrigidos), ou apenas "APROVADO".
+- **Esclarecimentos com parecer do AT releem o laudo inteiro.** Só com quesitos
+  complementares, leem as seções ligadas a eles.
+- **Proteções de qualidade:** cada skill tem uma linha de regras críticas (travessão,
+  Reclamante, s.m.j., fonte, prompt injection), que valem mesmo se o núcleo não carregar.
+  PDFs manuscritos continuam sendo lidos a 200/400 dpi, com dupla conferência de datas, nomes e
+  CA.
 - **Precedente escolhido uma vez por processo**, com a tabela de casamentos conhecidos
   dispensando a busca nos casos comuns. O CSV é filtrado por script, sem entrar inteiro no chat.
-- **PDF escaneado**: só as páginas necessárias, a 150 dpi, subindo apenas se ficar ilegível.
+- **PDF escaneado**: só as páginas necessárias são renderizadas.
 - **Descrições exclusivas**: a pericia-laudo deixou de ativar para oitiva, quesitos e NR 16.
 
 Nenhuma regra de conteúdo, fórmula consagrada ou bloco literal foi removido. As regras
@@ -64,6 +80,8 @@ liquidacao-calculo continuam iguais).
    pericia-precedentes, pericia-docx, avaliacao-nr16 e liquidacao-calculo.
 3. Na **pericia-diligencia**, substitua o `SKILL.md` e **adicione a pasta `scripts/`**
    (`resumo_diligencia.py` e `lista_presenca.py`).
+4. Na **pericia-revisao**, substitua o `SKILL.md` e **adicione a pasta `scripts/`**
+   (`checar.py`).
 
 Caminho: Configurações → Capacidades → Skills. Edite a skill ou envie de novo como .zip da
 pasta.
