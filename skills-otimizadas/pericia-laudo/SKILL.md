@@ -179,6 +179,11 @@ Conclusão CONDICIONAL ("caso reste comprovado... s.m.j.") só quando o fato dep
 não está nos autos nem foi produzida na diligência (ex.: omissão de PGR, PPRA, PCMSO, LTCAT, PPP
 ou fichas indispensáveis à aferição).
 
+Parecer conclusivo: o parágrafo da conclusão integra o agente, o enquadramento completo (NR,
+Anexo, grau) e a base jurisprudencial (Súmula, OJ, IRR) já usada no corpo do laudo; o destaque em
+caixa alta vem depois, em parágrafo próprio. Graus concorrentes: art. 192 CLT, prevalece o mais
+elevado, submetido ao Juízo, s.m.j.
+
 Tipos: CARACTERIZA / NÃO É DEVIDO / GRAU MÉDIO (20%) / GRAU MÁXIMO (40%), em caixa alta, em
 parágrafo próprio isolado, nunca embutido na prosa. Destaque em negrito (confirmado
 nos laudos 156 a 175, 210 e 63). DELIMITADA por período ou setor (graus distintos no mesmo contrato,

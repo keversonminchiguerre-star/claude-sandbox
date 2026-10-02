@@ -1,0 +1,1 @@
+Perícias judiciais trabalhistas de insalubridade e periculosidade (TRT 1ª Região), Keverson Thiago Minchiguerre Gonçalves, Perito do Juízo. Regras completas nas Instruções do projeto e nas skills pericia-*.

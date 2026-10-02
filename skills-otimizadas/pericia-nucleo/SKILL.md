@@ -77,15 +77,18 @@ memória.
     prestação de serviços." Súmula 47 TST: intermitência não afasta o adicional. Anexo 14 é
     qualitativo: cronoanálise nunca é critério de permanência.
 12. Sem placeholders ([nome], [data]) nem Markdown (**, #) no texto final.
-13. Fidelidade à fonte: nenhum fato entra por inferência, analogia com outro processo ou
+13. Texto acessível a magistrado leigo na técnica, sem perder a precisão.
+14. Datas: data exata, horário de início, período contratual (admissão/rescisão ou vigente). Ano
+    corrente 2026: conferir todas as ocorrências de ano no documento.
+15. Fidelidade à fonte: nenhum fato entra por inferência, analogia com outro processo ou
     plausibilidade. Dado ausente é registrado como ausente.
-14. Boilerplate normativo do acervo é reproduzido literalmente, inclusive com aparente erro de
+16. Boilerplate normativo do acervo é reproduzido literalmente, inclusive com aparente erro de
     digitação (ex.: "pacientes,bem" no Anexo 14): nunca "corrigir".
-15. "(Grifo meu)": a alínea destacada fica em negrito real no DOCX (só aquele trecho), com a
+17. "(Grifo meu)": a alínea destacada fica em negrito real no DOCX (só aquele trecho), com a
     etiqueta "(Grifo meu)" alinhada à direita. Etiqueta sem negrito no trecho é erro.
-16. Nome manuscrito de leitura duvidosa (lista de presença, ficha): entregar como leitura
+18. Nome manuscrito de leitura duvidosa (lista de presença, ficha): entregar como leitura
     provisória e pedir confirmação a Keverson antes de gravar no DOCX final.
-17. Arquivo enviado com nome genérico ("Laudo Técnico Pericial.pdf"): conferir número do processo
+19. Arquivo enviado com nome genérico ("Laudo Técnico Pericial.pdf"): conferir número do processo
     e nome do Reclamante dentro do arquivo antes de comentar; nunca presumir que é o caso em
     discussão.
 
