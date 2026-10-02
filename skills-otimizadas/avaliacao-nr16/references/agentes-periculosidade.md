@@ -1,6 +1,6 @@
 # Avaliação por agente: Periculosidade (NR 16), prática do acervo
 
-Extraído da memória "Acervo Estilo Raciocínio" (15/09/2026). Complementa o SKILL.md; ler a
+Prática consolidada do acervo (leitura de todo o acervo, set/2026). Complementa o SKILL.md; ler a
 seção do caso antes de redigir.
 
 ## Princípios
@@ -64,7 +64,7 @@ parafrasear):
 6. bloco "Orientação Jurisprudencial nº 385 do TST" com o texto integral da OJ e a linha
    "Observação: DEJT divulgado em 9, 10 e 11/6/2010";
 7. na Metodologia, Súmula 364 TST completa.
-Itálico e negrito exatos de cada trecho: memória "formatacao-docx-laudo".
+Itálico e negrito exatos de cada trecho: replicar do laudo-base (laudos 40, 55, 68, 107).
 
 ## Checklist completo do laudo de armazenamento em edifício (OJ 385)
 
@@ -144,7 +144,8 @@ Ausência desses documentos e condições nos autos, em nome do motorista ou do 
 conclusão negativa quando a carga só é alegada por CTE/nota fiscal genérica ("líquido
 inflamável" sem especificar). RNTRC ativo e CNAE "exceto produtos perigosos" sozinhos não provam
 nem afastam o transporte de perigosos (CNAE é cadastral/fiscal). Fechamento da conclusão nesse
-caso: memória "feedback-conclusao-factual-direta".
+caso: pericia-laudo, seção "Conclusão: fato x questão jurídica" (conclusão negativa direta, sem
+fecho ao Juízo).
 
 # Complemento: Estudo de 21 laudos (ago/2026)
 

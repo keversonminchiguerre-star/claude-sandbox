@@ -1,6 +1,6 @@
 # Avaliação por agente: Insalubridade (NR 15)
 
-Extraído da leitura de todo o acervo (memória "Acervo Estilo Raciocínio", 15/09/2026). Laudos
+Extraído da leitura de todo o acervo (set/2026). Laudos
 ~150-190 refletem a prática atual. Ler a seção do agente em avaliação antes de redigir; a busca
 nos arquivos do projeto (NRs, guias) complementa, não substitui.
 
@@ -104,8 +104,9 @@ EPI completo no papel mas com item ausente ou danificado na inspeção pesa para
 Estrutura desses laudos: Avaliação com sub-blocos na ordem Agentes Químicos (Anexos 11/13, com a
 citação do IRR 180 sobre álcalis diluídos), Agentes Biológicos (Anexo 14, só com coleta de
 lixo/resíduos na função) e Frio (Anexo 9, art. 253 CLT, Portaria SSST 21/1994, mapa IBGE).
-Quesitário-padrão dessa Reclamada (24 + 24, quase idênticos entre processos): vida útil do EPI
-"Prejudicado"; PGR/OS/PCMSO/ASO/treinamento fora do escopo remetidos a um quesito-chave ("Vide
+Metodologia desses laudos: CLT art. 189 + Súmula 47 TST. Quesitário-padrão dessa Reclamada (24 + 24, quase idênticos entre processos): vida útil do EPI
+"Prejudicado"; temas recorrentes: fiscalização do uso, CA dos EPIs, uso individual ou coletivo
+da japona, tempo de exposição, aviso de uso obrigatório na porta da câmara; PGR/OS/PCMSO/ASO/treinamento fora do escopo remetidos a um quesito-chave ("Vide
 resposta ao quesito XVII"); área da câmara em m² "Prejudicado, tal quesito em nada interfere na
 apuração da insalubridade"; nexo e exames médicos "Prejudicado, a perícia teve unicamente como
 objetivo a apuração da insalubridade".
@@ -155,7 +156,7 @@ afastado pelo próprio mérito normativo (sem fonte artificial de calor ou IBUTG
 radiação artificial; sem piso alagado/encharcado). NUNCA tratar como "matéria de dano moral,
 fora do escopo desta perícia".
 
-# Complemento: Estudo de 21 laudos (memória "Estudo 21 Laudos Agentes Diversos", ago/2026)
+# Complemento: Estudo de 21 laudos (ago/2026)
 
 ## Químicos (Anexos 11 e 13), detalhamento
 

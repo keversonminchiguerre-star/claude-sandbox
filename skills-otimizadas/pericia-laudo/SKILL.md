@@ -63,8 +63,8 @@ que o agente aparecer no chat. Periculosidade: avaliacao-nr16.
 10. Síntese da contestação da Reclamada.
 11. Condicionais, só quando aplicáveis: Informações preliminares (glossário técnico do local,
     ausência do Reclamante, situação especial); Descrição das atividades conforme oitivas
-    (pericia-oitivas); Pontos controversos (divergência factual explícita, com "Nota 1:" ou
-    "Observação:" inline, conforme o laudo-base); Oitiva com atividade paradigma; Oitiva com
+    (pericia-oitivas); Pontos controversos (estrutura antiga dos laudos ~1-45; usar SÓ se o
+    laudo-base do processo a tiver, com "Nota 1:" ou "Observação:" inline); Oitiva com atividade paradigma; Oitiva com
     outros informantes; Outras informações; Entrevista online (Zoom, com data e horário);
     Informações prestadas por e-mail.
 12. "Documentos evidenciados nos autos:" (com dois-pontos): SOMENTE documentos técnicos de

@@ -34,8 +34,9 @@ Metodologia: "Para obtenção dos resultados procedeu-se com a análise das info
 nos autos previamente à realização da diligência pericial."
 Conceito: "A Periculosidade consiste nas exposições dadas à atividade, operação e permanência em
 área de risco."
-Habitualidade: "Estudadas na avaliação somente as exposições dadas as atividades em tempo
-permanente ou intermitente. Não há aplicabilidade para eventuais/fortuitas."
+Habitualidade: copiar literalmente do laudo-base; há duas redações no acervo ("...Não há
+aplicabilidade para eventuais/fortuitas." e "...eventuais e ocasionais (fortuitas)."). Nunca
+misturar as duas nem reescrever.
 
 ## Sequência
 
@@ -107,12 +108,19 @@ autorização vencida ou inexistente: registrar e submeter a consequência ao Ju
 
 ## Anexo 4 - Eletricidade (Port. 1078/2014)
 
-Caracterização (item 1): (a) SEP em AT energizado; (b) proximidade com risco de choque (zonas de
-risco e controle da NR 10); (c) BT no SEP ou proximidades com descumprimento do 10.2.8 da NR 10;
-(d) EBT acima de 50 V CA ou 120 V CC, exceto baterias de 12 V.
-Exclusão (item 2): (a) instalação desenergizada com todas as medidas do 10.5; (b) EBT ≤ 50 V CA
-ou 120 V CC, incluída bateria de 12 V; (c) BT com características elementares.
-Item 3: intermitência é considerada permanente para enquadramento.
+Resumo para orientação; no laudo, transcrever SEMPRE o texto literal do PDF da NR 16 do projeto.
+Caracterização (item 1): (a) instalações ou equipamentos elétricos energizados em ALTA TENSÃO;
+(b) trabalho em PROXIMIDADE, conforme a NR 10; (c) BAIXA TENSÃO no sistema elétrico de CONSUMO
+(SEC), no caso de descumprimento do item 10.2.8 e subitens da NR 10; (d) empresas que operam em
+instalações ou equipamentos integrantes do sistema elétrico de POTÊNCIA (SEP), e suas contratadas,
+conforme as atividades e áreas de risco do quadro I.
+Exclusão (item 2): (a) SEC desenergizado e liberado para o trabalho, sem possibilidade de
+energização acidental, conforme a NR 10 (sequência do 10.5); (b) instalações alimentadas por
+EXTRA-BAIXA TENSÃO (EBT pela NR 10: até 50 V CA ou 120 V CC; inclui bateria de 12 V); (c)
+atividades elementares em baixa tensão (uso de equipamento energizado, ligar e desligar circuitos)
+com materiais e equipamentos conformes às normas técnicas.
+Item 3: trabalho intermitente equiparado ao permanente para fins de enquadramento (conferir o
+texto literal).
 
 Alínea c: ausência de diagrama unifilar, Prontuário de Instalações Elétricas, procedimentos
 documentados ou kit de bloqueio, registrada objetivamente, configura descumprimento do 10.2.8.
@@ -154,6 +162,9 @@ mínimos, recipiente ≤ 5 L lacrado.
 
 ## Formato do texto de avaliação
 
-Enxuto. Parágrafo único com as atividades declaradas em lista corrida; OS ou PGR quando registram
-atividade habitual; ausência documental em uma frase; fechar com a alínea literal em itálico. Sem
-parágrafo de EPI e sem análise de exclusões em separado.
+Dois planos distintos: (1) o bloco normativo transcrito é COMPLETO e literal, como no acervo
+(eletricidade: Lei 12.740/2012, Portaria 1.078/2014, itens 1 e 2 do Anexo 4, definições, Anexo II
+e itens 10.2.8 e 10.5 da NR 10; OJ 385: estrutura literal obrigatória das references); (2) o texto
+próprio do Perito é ENXUTO: parágrafo único com as atividades declaradas em lista corrida, OS ou
+PGR quando registram atividade habitual, ausência documental em uma frase, frase conclusiva
+aplicando a alínea. Sem parágrafo de EPI e sem discussão de exclusões fora do que o caso exige.

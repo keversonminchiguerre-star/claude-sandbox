@@ -32,8 +32,9 @@ para resumo, laudo e esclarecimentos.
    decorrente de recurso), quesitos, indicação de AT; FRE (com Histórico), Contrato, CTPS, TRCT,
    holerites, ASOs, PPP, PGR, PPRA, PCMSO, LTCAT, Ficha de EPI, Ordem de Serviço. Ler só o que
    alimenta o pré-laudo; procurações, custas, certidões e documentos pessoais não.
-3. Extração econômica: texto pesquisável com `pdftotext -layout` ou pdfplumber. Ler da inicial e
-   das contestações só os tópicos de insalubridade/periculosidade, jornada, função e quesitos.
+3. Extração: texto pesquisável com `pdftotext -layout` ou pdfplumber. Ler a inicial e as
+   contestações por inteiro; levar para o pré-laudo só os tópicos de insalubridade/periculosidade,
+   jornada, função e quesitos.
    PDF escaneado: renderizar com `pdftoppm -png` SOMENTE as páginas necessárias, a 200 dpi
    (400 para manuscrito ou letra pequena, como FRE preenchida à mão e Ficha de EPI). Datas,
    nomes e CA lidos de imagem: conferir duas vezes. Nunca presumir conteúdo pelo nome do arquivo. Ilegível mesmo renderizado: registrar que foi juntado

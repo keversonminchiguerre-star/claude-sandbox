@@ -40,6 +40,10 @@ alvo abaixo de 2 MB com dez fotos).
 
 ## Procedimento
 
+0. Caminho principal (fluxo de 17/09/2026): clonar o .docx do laudo-base (mais recente do acervo
+   do mesmo agente ou "Laudo Base.docx" da pasta), apagar só os parágrafos do corpo preservando o
+   sectPr (clear-and-rebuild) e reescrever por cima; depois seguir os passos 3 a 6. Os passos 1 e
+   2 abaixo são o recurso quando não houver laudo-base adequado.
 1. Gerar o conteúdo com `scripts/gerar_base.py` (helpers P, B, TIT, Q, FOTO; página A4 e
    margens já configuradas). Não ler os scripts: só importar e executar.
 2. Rodar `scripts/posprocessar.py <gerado.docx> <laudo_referencia.docx>`.

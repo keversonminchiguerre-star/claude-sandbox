@@ -21,8 +21,8 @@ que o sustenta. Se o Laudo respondeu aquele ponto com "Prejudicado" ou o remeteu
 a mesma posição, sem raciocínio novo. Esclarecimento de outro processo serve só de referência de
 estilo e estrutura, nunca de fato ou tese (erro real: frase sobre "obrigação da empresa de manter
 registros", tirada de outro esclarecimento, sem lastro no Laudo do caso). Nenhuma interpretação
-jurídica. Com parecer técnico do AT: reler o laudo inteiro antes de redigir. Só
-com quesitos: ler a conclusão e as seções ligadas aos quesitos. Ao concluir: revisão e DOCX
+jurídica. Reler o laudo inteiro antes de redigir, com ou sem parecer de AT: cada
+rebate precisa da passagem exata que o sustenta. Ao concluir: revisão e DOCX
 automáticos (pericia-nucleo).
 
 ## Estrutura (nesta ordem; blocos condicionais)
@@ -44,8 +44,9 @@ automáticos (pericia-nucleo).
    da Reclamante/Reclamada na diligência pericial, tampouco foi apresentada manifestação técnica
    ou parecer técnico pela parte."
 5. Impugnação só de advogado, SEM manifestação de assistente técnico (nunca usar quando há AT):
-   registrar que não veio acompanhada de peça técnica, o que evidencia que a impugnação é opinião
-   de leigo sem competência na matéria da perícia. Fórmula: "Quanto à impugnação apresentada
+   registrar que não veio acompanhada de peça técnica (objetivo, não escrever no texto: mostrar
+   que a impugnação não tem fundamento técnico). Usar SÓ a fórmula, sem adjetivos nem comentário
+   sobre o advogado: "Quanto à impugnação apresentada
    pela parte X, verifica-se que esta não foi acompanhada de laudo técnico, parecer de assistente
    técnico ou qualquer outro elemento tecnicamente fundamentado que justificasse a revisão do
    conteúdo pericial[, tampouco foram apresentados quesitos complementares ou suplementares]."

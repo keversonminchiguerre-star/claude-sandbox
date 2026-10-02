@@ -25,8 +25,9 @@ Banco de Laudos.md (famílias e fórmulas-chave); pasta Laudo Técnico Pericial 
    chat. Preferir numeração mais alta (estilo mais recente).
 3. Confirmar a família no Banco de Laudos.md (ler só a família) e extrair do docx do precedente
    (zipfile, word/document.xml, sem tags) apenas a avaliação e a conclusão.
-4. Definir o PRECEDENTE DE REDAÇÃO (caso mais parecido) e o MOLDE FÍSICO (sempre o laudo mais
-   recente, hoje o 169, usado pela pericia-docx). Podem ser diferentes.
+4. Definir o PRECEDENTE DE REDAÇÃO (caso mais parecido) e o MOLDE FÍSICO (o laudo mais recente
+   do acervo do MESMO AGENTE, ou o "Laudo Base.docx" da pasta do processo, clonado por
+   clear-and-rebuild; ver pericia-nucleo, Método). Podem ser o mesmo arquivo.
 5. Reportar em poucas linhas: precedente, motivo e fórmulas reaproveitadas.
 
 ## Casamentos conhecidos (dispensam a busca)
@@ -38,7 +39,8 @@ Biológico hospitalar (qualquer função): consultar primeiro o "Estudo - Enquad
 Insalubridade Biológica em Hospitais, UPA e Casas de Saúde.docx" (tabela de 14 situações, 38
 laudos); leito de isolamento no setor do Reclamante: 125 e 71 (máximo); fora do setor: 94, 174,
 177 (negativo). Hospital, enfermagem: 152, 158, 166; Covid no período: 103, 111, 117, 131, 132, 144, 152, 158,
-165. Gerador ou inflamáveis: 143 e 146 (negativos), 127 e 107 (devidos). Eletricidade: 167 e 168
+165. Gerador ou inflamáveis: 143 e 146 (negativos), 127 (devido); armazenamento em edifício vertical
+(OJ 385, sempre ao Juízo): 40, 55, 68 e 107. Eletricidade: 167 e 168
 (devidos), 138 (negativo, extra-baixa tensão).
 
 ## Honestidade

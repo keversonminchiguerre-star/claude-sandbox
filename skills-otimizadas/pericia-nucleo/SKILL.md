@@ -28,8 +28,10 @@ CREA-SP 5069732868. Documentos destinados a juntada em autos trabalhistas (TRT 1
 
 ## Método (lição mais cara já paga)
 
-Forma: herdar, nunca recriar (clonar o .docx mais recente do acervo do mesmo agente, clear-and-
-rebuild preservando o sectPr, limpar mídia órfã). Conteúdo: reescrever por cima do precedente,
+Forma: herdar, nunca recriar. Molde físico = o .docx do laudo-base (o mais recente do acervo do
+mesmo agente ou o "Laudo Base.docx" da pasta do processo), clonado por clear-and-rebuild
+preservando o sectPr, com limpeza da mídia órfã (fluxo de 17/09/2026). Os scripts da pericia-docx
+(gerar_base + transplante de estilos) são o recurso quando não houver laudo-base adequado. Conteúdo: reescrever por cima do precedente,
 nunca do zero, mantendo títulos, numeração e extensão proporcional por seção. Um processo por
 vez, aguardando o sinal de Keverson antes do próximo: misturar fatos entre processos da mesma
 leva é o modo de falha mais caro. Agente mencionado: procurar em TODAS as fontes (transcrição,
@@ -47,14 +49,17 @@ memória.
 ## Regras de redação
 
 1. Sem travessão em-dash (—) em hipótese alguma, em nenhuma seção, inclusive listas. Substituir
-   por vírgula, ponto, dois pontos ou reescrita. En-dash (–) só no cabeçalho do DOCX e como
-   separador opcional na lista de presentes.
+   por vírgula, ponto, dois pontos ou reescrita. En-dash (–) só em contextos fixos do acervo:
+   cabeçalho, títulos de norma e anexo ("NOVA NR-6 – EQUIPAMENTO...", "Anexo N da NR 16 – ..."),
+   rótulo de Súmula ("Súmula nº 80 TST – A eliminação..."), endereço ("nº 159 – Madureira"),
+   aposto normativo ("IRR nº 180") e lista de presentes. Nunca como pontuação da prosa.
 2. Sem aspas no corpo narrativo. Exceções: Súmulas, IRRs e enunciados normativos (em itálico);
    trechos da inicial citados pela contestação; nomes de produtos químicos citados pelas partes.
 3. Sem listas, marcadores, subtítulos internos ou numeração dentro de seções corridas. Exceções:
    Documentos evidenciados (um documento por item, forma do laudo-base, nunca travessão);
-   Acompanharam a diligência (uma linha por presente, sem marcador, separador "-" ou "–":
-   Sr. Fulano - Reclamante); listagem dos Anexos da NR 16 no início da Avaliação da
+   Acompanharam a diligência (uma linha por presente, separador "-" ou "–": Sr. Fulano -
+   Reclamante; marcador nativo do Word e agrupamento por parte só se o laudo-base usar; nunca
+   hífen ou travessão digitado como marcador); listagem dos Anexos da NR 16 no início da Avaliação da
    Periculosidade (parágrafos curtos iniciados por hífen, como no acervo).
 4. Impessoal, terceira pessoa, verbos periciais: declarou, afirmou, informou, esclareceu,
    mencionou, confirmou, constatou-se, restou evidenciado, foi verificado, aplicou-se, conclui-se.
@@ -135,8 +140,10 @@ A frase "a insalubridade por agentes biológicos é dada por atividade, não sen
 neutralização com o uso de EPI" entra somente quando: (a) conclusão positiva; (b) conclusão
 negativa com submissão da Súmula 448 ao Juízo; ou (c) atividade com exposição biológica relevante
 mesmo em negativa. Nunca em frio, calor, químicos ou atividade sem exposição biológica relevante.
-Periculosidade: frase fixa "Cumpre-me esclarecer que não é possível neutralizar a exposição
-periculosa com a utilização de EPI's."
+Periculosidade: na seção de EPI, a frase do laudo-base ("Cumpre-me esclarecer que não é possível
+neutralizar a exposição periculosa com a utilização de EPI's." ou "Não é possível neutralizar a
+exposição periculosa com a utilização de EPI's."; ambas existem no acervo); nos quesitos, a forma
+curta.
 
 ## Lista de presença no laudo (decisão de Keverson, 02/10/2026)
 
@@ -185,7 +192,11 @@ spacing, ind, jc; jc antes de spacing faz o Word ignorar o numPr. Não referenci
 Conferir a lista real de pastas conectadas no início da sessão. Laudo Técnico Pericial: acervo,
 só referência. Laudos em Elaboração: casos em andamento ("Laudo Base.docx", transcrição
 ".mkv.docx", documentos, fotos). Pastas de mês: uma subpasta numerada por processo (nunca
-presumir qual número é qual processo). Insalubridade: estudos e índices do acervo. Pasta liberada
+presumir qual número é qual processo). Insalubridade: estudos e índices do acervo. Arquivos do
+acervo nomeados "NN Laudo [Tipo] [Agente] [Local/Empresa].docx". Pasta concedida ad hoc numa
+sessão anterior pode aparecer vazia na sessão nova: o caminho seguro é o arquivo estar numa pasta
+permanentemente conectada; arquivo esperado que não aparece: verificar se foi relocado antes de
+pedir acesso de novo. Pasta liberada
 no meio da sessão pode não ser visível ao bash (avisar que binário só em sessão nova). /tmp é
 volátil: o que precisa sobreviver vai para a pasta do processo.
 
@@ -196,6 +207,10 @@ perguntar se já existe modelo de Keverson no acervo. Ex.: a Lista de Presença 
 Ident. / Função/Parte / Assinatura), não DOCX; molde em pericia-diligencia.
 
 ## Fonte padrão
+
+Os docDefaults do molde vêm como Calibri 11 (line 276, after 200); os runs do corpo levam Verdana
+12 EXPLÍCITO. Citações literais: Verdana sem tamanho explícito (herdam o tamanho menor).
+Alinhamento dos títulos e demais detalhes finos: herdados do laudo-base, nunca impostos.
 
 Verdana em todas as peças (pré-laudo, laudo, esclarecimentos, manifestação), corpo 12. Arial
 (11) é usada exclusivamente nos enunciados transcritos dos quesitos, nada mais. Tahoma só no

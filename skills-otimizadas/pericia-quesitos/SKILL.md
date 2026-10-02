@@ -17,7 +17,7 @@ pericia-revisao.
 
 Transcrever o enunciado com os erros do original. Não endossar qualificação da parte sobre os
 fatos ("o risco comprovado", "a exposição inequívoca"). Não introduzir fato que não conste do
-laudo. Não interpretar a norma (o que o Anexo prevê ou não). Não reproduzir Súmula, OJ ou IRR que
+laudo. Não interpretar a norma (o que o Anexo prevê ou não). Não reproduzir Súmula, OJ ou IRR que não esteja no laudo ou que
 Keverson não tenha fornecido na conversa. Questão jurídica: s.m.j.
 
 ## Concisão (correção de Keverson, 15/09/2026)
