@@ -7,10 +7,12 @@ import re
 import sys
 
 PROIBIDAS = [
-    "o laudo registrou que", "(grifo meu)", "unilateral", "não vincula o perito",
+    "o laudo registrou que", "unilateral", "não vincula o perito",
     "não vinculam o perito", "lotação formal não é determinante", "não está adstrita à inicial",
     "não está adstrita à narrativa", "ônus da prova recai", "obrigação legal da empregadora",
     "conforme evidenciado em oitivas", "nas oitivas colhidas", "vide corpo do laudo",
+    "não aferível por meios periciais", "não é possível apurar por meios periciais",
+    "não aferíveis por meios periciais",
 ]
 JARGAO = [
     "em suma", "em síntese", "à luz de", "destarte", "outrossim", "imperioso", "frisa-se",
@@ -19,13 +21,15 @@ JARGAO = [
 ]
 REGEX = [
     ("travessão em-dash", re.compile("—")),
-    ("empregado/obreiro (usar Reclamante)", re.compile(r"\b(empregad[oa]s?|obreir[oa]s?)\b", re.I)),
+    ("empregado/obreiro (usar Reclamante; exceção: cláusula fixa de Outras observações insalubridade)",
+     re.compile(r"\b(empregad[oa]s?|obreir[oa]s?)\b", re.I)),
+    ("RESPOSTA: em caixa alta (usar Resposta:)", re.compile(r"\bRESPOSTA:")),
     ("reclamante minúsculo", re.compile(r"\breclamante\b")),
     ("NR com hífen (permitido só em citação)", re.compile(r"\bNR-\s?\d")),
     ("Sr./Sra. minúsculo", re.compile(r"(?<![A-Za-zÀ-ú])sra?\.\s", re.U)),
     ("aspas curvas (conferir se é citação permitida)", re.compile("[“”]")),
     ("placeholder", re.compile(r"\[(?!a confirmar)[^\]]{1,40}\]", re.I)),
-    ("Markdown", re.compile(r"(\*\*|^#{1,6}\s|^\s*[-*]\s)", re.M)),
+    ("Markdown", re.compile(r"(\*\*|^#{1,6}\s)", re.M)),
     ("pontuação duplicada", re.compile(r"(?<!\.)\.\.(?!\.)|,,|;;")),
     ("sessão (conferir: cessação?)", re.compile(r"\bsess(ão|ões)\b", re.I)),
 ]

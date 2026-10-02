@@ -33,8 +33,9 @@ contraditória: conclusão negativa.
 
 ## Fórmulas fixas
 
-Escopo: "Prejudicado, a perícia teve unicamente como objetivo a apuração da insalubridade." ou
-"Prejudicado, a perícia teve unicamente o objetivo de apurar a periculosidade."
+Escopo: "Prejudicado. A perícia teve unicamente como objetivo a apuração da insalubridade." ou
+"...da periculosidade." (forma das memórias Acervo e Esclarecimentos, 15/09/2026).
+Especulativo: "Prejudicado. Quesito especulativo. [uma frase de razão]."
 Fora do escopo técnico: "Prejudicado, matéria fora do escopo da perícia técnica."
 Impertinente: "Quesito impertinente, em nada contribui na análise."
 Rotina: "Atividade rotineira, integrando a rotina da função."
@@ -43,7 +44,9 @@ Seção do laudo responde integralmente: "Vide Laudo, [Nome da Seção]." (nunca
 Encerramento final: "Todas as informações necessárias estão contidas no Laudo."
 Subitens em conclusão negativa: "Prejudicado. Subitens prejudicados pela mesma razão."
 Médico, nexo causal ou capacidade laboral: "Prejudicado, quesito médico. A perícia teve
-unicamente como objetivo a apuração da insalubridade." (ou periculosidade).
+unicamente como objetivo a apuração da insalubridade." (ou periculosidade). Laudo de acidente:
+"Prejudicado. A presente perícia teve unicamente como objetivo a apuração das condições de
+segurança do trabalho relacionadas ao acidente ocorrido em [data]."
 Vida útil de EPI: "Prejudicado."
 EPI x periculosidade: "Não é possível neutralizar a exposição periculosa com a utilização de EPI's."
 

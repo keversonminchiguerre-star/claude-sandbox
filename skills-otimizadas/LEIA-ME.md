@@ -41,6 +41,16 @@ A economia vem de **fazer cada automação uma vez, no momento certo**, e não d
 Nenhuma regra de conteúdo, fórmula consagrada ou bloco literal foi removido. As regras
 repetidas passaram para a **pericia-nucleo**.
 
+## Memórias incorporadas (02/10/2026)
+
+Acervo Estilo Raciocínio, Esclarecimentos Periciais Padrão, ESTRUTURA Real Laudo Periculosidade,
+Estudo 21 Laudos, Feedback Ação Coletiva, Feedback Conclusão Factual Direta, Feedback Formatação
+Verificar Acervo, Feedback Laudo Acidente Escopo, Feedback Laudo 210 (formatação e avaliação).
+Novos arquivos de consulta, lidos só ao avaliar um agente:
+`pericia-laudo/references/agentes-insalubridade.md` e
+`avaliacao-nr16/references/agentes-periculosidade.md`. Nomes de partes e números de processo não
+foram gravados; os casos são citados pelo número do laudo ou pelo tipo.
+
 ## Decisões tomadas (confira)
 
 1. **"Diante do exposto" liberado**, conforme você autorizou. Saiu da lista de jargão.
@@ -52,10 +62,9 @@ repetidas passaram para a **pericia-nucleo**.
    - "Vide Laudo, [Nome da Seção]."
    - Quesito médico: "Prejudicado, quesito médico. A perícia teve unicamente como objetivo..."
      (a laudo dizia "Prejudicado. Nexo causal não constituiu objeto do LTP.").
-3. **"(Grifo meu)"**: a pericia-laudo proibia em qualquer reprodução normativa, e a
-   pericia-pre-laudo descrevia como formatá-lo em laudo de periculosidade. Ficou assim:
-   **proibido em insalubridade e permitido em periculosidade**. Se for proibido sempre, basta
-   apagar o parágrafo na pré-laudo.
+3. **"(Grifo meu)"**: a skill antiga proibia, mas a sua revisão do laudo 210 (insalubridade) e
+   os laudos de periculosidade o usam, com a alínea em negrito real. Ficou **permitido**, com
+   negrito obrigatório no trecho destacado.
 4. **Arquivos inexistentes**: a pericia-laudo citava `references/agentes-tecnicos.md` e
    `references/epi-conclusao.md`, que não existem na skill. Troquei por "uma busca nos arquivos
    do projeto por agente". Se esses arquivos existirem no seu computador, me mande que eu

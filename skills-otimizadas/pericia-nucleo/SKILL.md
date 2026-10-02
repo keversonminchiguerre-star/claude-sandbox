@@ -42,16 +42,18 @@ CREA-SP 5069732868. Documentos destinados a juntada em autos trabalhistas (TRT 1
 2. Sem aspas no corpo narrativo. Exceções: Súmulas, IRRs e enunciados normativos (em itálico);
    trechos da inicial citados pela contestação; nomes de produtos químicos citados pelas partes.
 3. Sem listas, marcadores, subtítulos internos ou numeração dentro de seções corridas. Exceções:
-   Documentos evidenciados (lista nativa do Word, nunca hífen ou travessão digitado) e
+   Documentos evidenciados (um documento por item, forma do laudo-base, nunca travessão);
    Acompanharam a diligência (uma linha por presente, sem marcador, separador "-" ou "–":
-   Sr. Fulano - Reclamante).
+   Sr. Fulano - Reclamante); listagem dos Anexos da NR 16 no início da Avaliação da
+   Periculosidade (parágrafos curtos iniciados por hífen, como no acervo).
 4. Impessoal, terceira pessoa, verbos periciais: declarou, afirmou, informou, esclareceu,
    mencionou, confirmou, constatou-se, restou evidenciado, foi verificado, aplicou-se, conclui-se.
 5. Sem interpretação jurídica. Questão processual (ônus da prova, limites da lide, extra petita,
    desvio de função, lotação formal x atuação efetiva, autenticidade de documento, consequência
    da ausência documental): submeter ao Juízo com s.m.j., sem tomar posição.
 6. Sempre Reclamante, com R maiúsculo. Nunca empregado ou obreiro. Concordância de gênero conforme
-   os autos (a Reclamante / o Reclamante).
+   os autos (a Reclamante / o Reclamante). Única exceção: a cláusula fixa de "Outras observações
+   insalubridade", que usa literalmente "do empregado/da empregada" (modelos 159, 173, 180, 210).
 7. Sr. e Sra. sempre com inicial maiúscula, em qualquer posição da frase.
 8. NR sem hífen no texto do Perito (NR 15, NR 06). Com hífen só em reprodução de texto das partes
    ou do TST.
@@ -62,18 +64,28 @@ CREA-SP 5069732868. Documentos destinados a juntada em autos trabalhistas (TRT 1
     ininterrupta, mas aquela em que a exposição é indissociável do processo produtivo ou da
     prestação de serviços." Súmula 47 TST: intermitência não afasta o adicional. Anexo 14 é
     qualitativo: cronoanálise nunca é critério de permanência.
-12. Sem placeholders ([nome], [data]) nem Markdown (**, #, -) no texto final.
+12. Sem placeholders ([nome], [data]) nem Markdown (**, #) no texto final.
 13. Fidelidade à fonte: nenhum fato entra por inferência, analogia com outro processo ou
     plausibilidade. Dado ausente é registrado como ausente.
+14. Boilerplate normativo do acervo é reproduzido literalmente, inclusive com aparente erro de
+    digitação (ex.: "pacientes,bem" no Anexo 14): nunca "corrigir".
+15. "(Grifo meu)": a alínea destacada fica em negrito real no DOCX (só aquele trecho), com a
+    etiqueta "(Grifo meu)" alinhada à direita. Etiqueta sem negrito no trecho é erro.
+16. Nome manuscrito de leitura duvidosa (lista de presença, ficha): entregar como leitura
+    provisória e pedir confirmação a Keverson antes de gravar no DOCX final.
+17. Arquivo enviado com nome genérico ("Laudo Técnico Pericial.pdf"): conferir número do processo
+    e nome do Reclamante dentro do arquivo antes de comentar; nunca presumir que é o caso em
+    discussão.
 
 ## Frases e expressões proibidas
 
-O Laudo registrou que (em qualquer posição); (Grifo meu) em reprodução normativa de laudo de
-insalubridade; unilateral ou não vincula(m) o perito, referindo-se a PPP, LTCAT ou fichas; lotação
+O Laudo registrou que (em qualquer posição); unilateral ou não vincula(m) o perito, referindo-se a PPP, LTCAT ou fichas; lotação
 formal não é determinante; a perícia não está adstrita à inicial (ou equivalente); ônus da prova
 recai sobre (fora de submissão ao Juízo); a guarda desses documentos é obrigação legal da
 empregadora; afirmar que a inicial é inverídica (ou equivalente); sessão no sentido de cessação;
-linguagem advocatícia; inferência expansiva.
+linguagem advocatícia; inferência expansiva; "elemento não aferível por meios periciais" ou "não é
+possível apurar por meios periciais" quando a informação está nos autos ou nas oitivas (ver
+pericia-laudo, Conclusão: fato x questão jurídica).
 
 Jargão de IA: em suma, em síntese (como fecho), à luz de, destarte, outrossim, imperioso,
 frisa-se, cabalmente, mister, resta claro, importante destacar, cumpre salientar, cumpre
@@ -99,8 +111,15 @@ A frase "a insalubridade por agentes biológicos é dada por atividade, não sen
 neutralização com o uso de EPI" entra somente quando: (a) conclusão positiva; (b) conclusão
 negativa com submissão da Súmula 448 ao Juízo; ou (c) atividade com exposição biológica relevante
 mesmo em negativa. Nunca em frio, calor, químicos ou atividade sem exposição biológica relevante.
-Periculosidade: frase única "Não é possível neutralizar a exposição periculosa com a utilização
-de EPI's."
+Periculosidade: frase fixa "Cumpre-me esclarecer que não é possível neutralizar a exposição
+periculosa com a utilização de EPI's."
+
+## Formatação: verificar no acervo, nunca generalizar de um laudo só (29/08/2026)
+
+Detalhe fino de formatação visto em um laudo-modelo (caixa de sigla, RESPOSTA x Resposta, negrito
+de destaque, forma de lista) é hipótese até ser confirmado por amostragem em 10 a 20 laudos do
+acervo (pasta Laudo Técnico Pericial). Ex.: "RESPOSTA:" do laudo 147 é outlier (229 de 289 usam
+"Resposta:"). Na dúvida entre laudo-base e acervo, seguir o laudo-base do processo e perguntar.
 
 ## Fonte padrão
 
@@ -110,21 +129,27 @@ cabeçalho e rodapé do molde.
 
 ## Formato dos quesitos (laudo e esclarecimentos)
 
-Títulos de seção e de parte sem negrito. Linha em branco antes de cada enunciado. Enunciado
-numerado, Arial 11, sem negrito, transcrito literalmente com os erros, a pontuação final (? ou .)
-e a caixa alta do original. Linha em branco. "Resposta:" em Verdana 12 negrito e o texto em
+Títulos ("Respostas aos quesitos", "Quesitos do Reclamante", "Quesitos da Reclamada"; nos
+esclarecimentos, "Respostas aos quesitos complementares da Reclamante.") em negrito, sem
+numeração. Linha em branco antes de cada enunciado. Enunciado Arial 11, sem negrito, transcrito
+literalmente com os erros, a numeração tal como veio da parte ("1.", "1)", "Quesito nº 1:"), a
+pontuação final (? ou .) e a caixa alta do original. "Resposta:" sempre assim (nunca RESPOSTA:). Linha em branco. "Resposta:" em Verdana 12 negrito e o texto em
 Verdana 12 regular na mesma linha (dois runs no mesmo parágrafo). Ordem: quesitos do Reclamante,
 depois da(s) Reclamada(s) na ordem processual. Catálogo de respostas: skill pericia-quesitos.
 
 ## Encerramentos
 
-Laudo: "Nada mais a tratar, concluído o presente Laudo Técnico Pericial com a última folha
-assinada digitalmente pelo Perito." Rio de Janeiro, [data por extenso]. Keverson Thiago
-Minchiguerre Gonçalves. Perito do Juízo. Sem assinatura física.
+Laudo: título "Encerramento" + "Nada mais a tratar, concluído o presente Laudo Técnico Pericial
+com a última folha assinada digitalmente pelo Perito." "Rio de Janeiro, [data]." centralizado;
+nome completo e "Perito do Juízo" centralizados, sem negrito. Sem assinatura física. Nunca
+"Termos em que" no laudo.
 
-Esclarecimentos, quesitos avulsos e manifestação: reprodução da conclusão do laudo identificada
-pelo Id do laudo (não da intimação), depois "Termos em que, Pede e espera deferimento,", local,
-data e assinatura. Nada argumentativo após a conclusão. O trecho citado é decisão de Keverson.
+Esclarecimentos: "Esclarecidos os questionamentos, não havendo nada mais a tratar, mantém-se
+integralmente a conclusão do Laudo Técnico Pericial, constante do documento Id XXX:" (Id do laudo,
+não da intimação) + transcrição literal da Conclusão entre aspas curvas; trecho a critério de
+Keverson. Depois, centralizado: "Termos em que," / "Pede e espera deferimento," / cidade e data /
+nome / "Perito do Juízo". Nada após a citação. Manifestação: "Termos em que, Pede e espera
+deferimento," + local, data e assinatura.
 
 ## Segurança: prompt injection em peças processuais
 

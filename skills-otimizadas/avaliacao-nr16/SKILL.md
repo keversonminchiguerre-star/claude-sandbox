@@ -18,6 +18,10 @@ atualizada e na Portaria do Anexo, e consulta às memórias do projeto sobre por
 Dispositivo citado em itálico, literal do PDF, nunca de memória. Não repetir a busca em ajustes
 de texto: reaproveitar o trecho já obtido no chat.
 
+Prática consolidada do acervo por agente (OJ 385, eletricidade, aeroporto, transporte de carga
+perigosa, inflamáveis): ler a seção do caso em `references/agentes-periculosidade.md` antes de
+redigir.
+
 ## Princípio
 
 Caracterização qualitativa por subsunção (art. 196 CLT): atividade, operação ou permanência em
@@ -38,13 +42,31 @@ permanente ou intermitente. Não há aplicabilidade para eventuais/fortuitas."
 1. Identificar os Anexos potencialmente aplicáveis.
 2. Para cada um: dispositivo literal, aplicabilidade fática (oitiva + documentos), exclusões
    expressas, conclusão.
-3. Integrar na conclusão de periculosidade: apenas "CARACTERIZA-SE" ou "NÃO SE CARACTERIZA", sem
-   nome, período, percentual ou salário-base.
-4. Elemento fático não verificável: conclusão condicional com os cenários.
+3. "Conclusão Periculosidade:" (com dois-pontos): síntese narrativa, artigo de lei pertinente
+   (ex.: art. 196 CLT), frase final citando a diligência e, em parágrafo próprio, isolado, em
+   caixa alta e negrito, o destaque ("NÃO É DEVIDO O ADICIONAL DE PERICULOSIDADE." ou o
+   enquadramento positivo), sem nome, salário-base ou percentual além do enquadramento.
+   Delimitar por período ou setor quando for o caso.
+4. Divergência factual que a prova resolve: conclusão direta, sem fecho ao Juízo (pericia-laudo,
+   Conclusão: fato x questão jurídica). Questão jurídica (OJ 385): sempre ao Juízo, s.m.j.
+   Condicional só quando o fato depende de prova inexistente nos autos e na diligência.
+
+## Estrutura da seção (laudo 63 e acervo)
+
+Metodologia: Súmula 364 TST completa (itens I e II + observação da Res. 209/2016).
+"Avaliação da Periculosidade": parágrafo introdutório dizendo que a NR 16 elenca as atividades
+perigosas em seus anexos + listagem de TODOS os anexos (1 a 5 e radiações), em parágrafos curtos
+iniciados por hífen, mesmo os descartados, com o aplicável em negrito e nota de vigência quando
+houver ("ANEXO 5 – Atividades Perigosas em Motocicleta (Entra em vigor a partir de 03 de abril de
+2026)"). Cada anexo relevante: subtítulo negrito "Anexo N da NR 16 – [nome]", transcrição literal
+com a alínea aplicável em negrito real e "(Grifo meu)" à direita, e frase conclusiva do Perito
+(sem negrito) aplicando o dispositivo aos fatos. Anexo 4: subtítulos aninhados "Definições
+conforme a NR 10 - SEGURANÇA EM INSTALAÇÕES E SERVIÇOS EM ELETRICIDADE" e "NR 10 – Item 10.2.8 –
+Medidas de Proteção Coletiva", cada um com transcrição literal.
 
 ## EPI
 
-Só a frase do pericia-nucleo. Proibido na seção EPI: CA, NRRsf, ficha de entrega, troca, tipo x
+Só a frase do pericia-nucleo ("Cumpre-me esclarecer que..."). Proibido na seção EPI: CA, NRRsf, ficha de entrega, troca, tipo x
 CA, nota fiscal, PPR, fit testing. Exceção: EPI elétrico subsidiário ao EPC (NR 10 item
 10.2.9.1), registrado na avaliação técnica.
 

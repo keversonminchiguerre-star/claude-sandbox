@@ -51,9 +51,18 @@ Diligência: conferir o PDF de Agendamento antes de afirmar que não há data ma
 Jornada: registrar a da FRE e a alegada quando divergirem, sem conciliar, marcando o que fica a
 confirmar.
 
+Ação coletiva de sindicato: antes de qualquer seção, mapear quais funções representadas eram
+empregados da própria Reclamada naquele contrato (pedido, emenda, contratos dos autos);
+terceirizados de outro contrato não são avaliados (pericia-laudo, Escopo).
+
+Distribuição dos documentos (laudo 210): Ficha de Registro, contrato, CTPS e TRCT só em Aspectos
+Laborais; LTCAT, PGR, PCMSO, PPRA, ASO e PPP só em Documentos evidenciados; fichas e comprovantes
+de EPI só na seção de EPI. Nunca duplicar.
+
 ## Seções que o pré-laudo fecha
 
-Endereçamento e partes; objetivo; aspectos laborais (admissão, demissão, evolução de cargo,
+Endereçamento e partes (nomes como na autuação do PJe; divergência de grafia reportada, nunca
+resolvida em silêncio); objetivo (fórmula fixa); dados bancários do molde; aspectos laborais (admissão, demissão, evolução de cargo,
 jornada documental); síntese da inicial; síntese das contestações; documentos evidenciados;
 conceitos preliminares; metodologia; EPI; blocos normativos fixos.
 
