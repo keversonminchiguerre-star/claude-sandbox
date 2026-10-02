@@ -43,7 +43,9 @@ automáticos (pericia-nucleo).
    sem AT nenhum: "Inicialmente, registra-se que não houve acompanhamento de assistente técnico
    da Reclamante/Reclamada na diligência pericial, tampouco foi apresentada manifestação técnica
    ou parecer técnico pela parte."
-5. Impugnação só de advogado, sem laudo técnico nem parecer: "Quanto à impugnação apresentada
+5. Impugnação só de advogado, SEM manifestação de assistente técnico (nunca usar quando há AT):
+   registrar que não veio acompanhada de peça técnica, o que evidencia que a impugnação é opinião
+   de leigo sem competência na matéria da perícia. Fórmula: "Quanto à impugnação apresentada
    pela parte X, verifica-se que esta não foi acompanhada de laudo técnico, parecer de assistente
    técnico ou qualquer outro elemento tecnicamente fundamentado que justificasse a revisão do
    conteúdo pericial[, tampouco foram apresentados quesitos complementares ou suplementares]."
