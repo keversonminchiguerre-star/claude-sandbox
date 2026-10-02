@@ -40,10 +40,10 @@ Seções em NEGRITO, sem numeração, fluxo simples e direto:
    parte [Reclamante/Autora], em valores atualizados até DD/MM/AAAA, os seguintes totais:" +
    tabela (Líquido ao Reclamante; Contribuição Social; Honorários; IRPF; Total devido).
 9. Quadro-Resumo: tabela verba a verba do PJe-Calc (Descrição | Valor Corrigido | Juros | Total).
-10. Encerramento e assinatura: [fecho a confirmar com Keverson: "Nada mais a tratar, concluído o
-    presente Laudo Técnico Pericial com a última folha assinada digitalmente pelo Perito." e/ou
-    "Termos em que, pede e espera deferimento"] + "Rio de Janeiro, [data]." + nome + "Perito do
-    Juízo".
+10. Encerramento e assinatura: "Nada mais a tratar, concluído o presente Laudo Técnico Pericial
+    com a última folha assinada digitalmente pelo Perito." seguido de "Termos em que, pede e espera
+    deferimento" + "Rio de Janeiro, [data]." + nome + "Perito do Juízo" (padrão adotado em
+    02/10/2026; se o laudo-modelo do caso usar só um dos fechos, seguir o modelo).
 
 Quesitos, quando houver: transcritos idênticos à redação da parte, com os erros, e respondidos um
 a um; remeter ou não ao corpo do laudo é decisão de Keverson; há quesitos redundantes e
