@@ -88,6 +88,28 @@ Acesso HABITUAL: grau MÉDIO (fulcro = EPI térmico completo da NR 6: capuz, tro
 braço/antebraço, calças, meias, confrontado com a ficha). Acesso PONTUAL ou tempo extremamente
 reduzido: não devido.
 
+### Câmara fria em supermercado/padaria (dois laudos da mesma Reclamada, desfechos opostos)
+
+O que decide não é existir câmara fria, e sim dois fatores sempre em conjunto: (1) intensidade e
+frequência do acesso (tempo total diário; se há retorno a ambiente não frio entre acessos) e (2)
+integridade e completude do EPI térmico da NR 6 (capuz, tronco, luvas, braço/antebraço, calça e
+meia térmica) comprovada por ficha E confirmada na inspeção in loco (estado de conservação, não
+só o papel).
+Grau MÉDIO: acesso 5 ou mais vezes por dia (3-5 min) + arrumação 3x/semana (10-15 min em
+congelados, ~7 min em cada resfriados) + lavagem 2x/mês; EPI incompleto (sem capuz, calça e meia
+térmica) e japonas danificadas na diligência.
+NÃO devido: acesso 2x/semana por ~2 h + 2 acessos diários de 20-30 min, com retorno ao posto na
+padaria (ambiente não frio) entre os acessos; EPI completo com CA na ficha e íntegro.
+EPI completo no papel mas com item ausente ou danificado na inspeção pesa para grau médio.
+Estrutura desses laudos: Avaliação com sub-blocos na ordem Agentes Químicos (Anexos 11/13, com a
+citação do IRR 180 sobre álcalis diluídos), Agentes Biológicos (Anexo 14, só com coleta de
+lixo/resíduos na função) e Frio (Anexo 9, art. 253 CLT, Portaria SSST 21/1994, mapa IBGE).
+Quesitário-padrão dessa Reclamada (24 + 24, quase idênticos entre processos): vida útil do EPI
+"Prejudicado"; PGR/OS/PCMSO/ASO/treinamento fora do escopo remetidos a um quesito-chave ("Vide
+resposta ao quesito XVII"); área da câmara em m² "Prejudicado, tal quesito em nada interfere na
+apuração da insalubridade"; nexo e exames médicos "Prejudicado, a perícia teve unicamente como
+objetivo a apuração da insalubridade".
+
 ## Calor (Anexo 3)
 
 Quantitativo (IBUTG, NHO 06/Fundacentro, termômetro de globo calibrado); comparar com o LT pela

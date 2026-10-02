@@ -27,6 +27,12 @@ Tanque vazio, limpo e liberado por PET: afasta.
 Tanque ou gerador de inflamável dentro da projeção horizontal do edifício: para a OJ 385, área
 de risco é toda a área interna da construção vertical.
 
+Frase de fechamento fixa: "Estando os tanques/geradores dentro da projeção horizontal do
+edifício, aplica-se a Orientação Jurisprudencial nº 385 do TST, que é matéria jurídica de análise
+do Magistrado e será analisada pelo Juízo, s.m.j." Vale na Conclusão E em todas as respostas a
+quesitos sobre o mesmo ponto (percentual devido, se estava em área de risco, se a inicial se
+equivoca): nenhuma negativa isolada em quesito contradizendo a conclusão.
+
 Conclusão SEMPRE (confirmado em 4/4 laudos lidos por inteiro, 40, 55, 68 e 107, e nos
 respectivos esclarecimentos): "aplica-se a Orientação Jurisprudencial nº 385 do TST, que é
 matéria jurídica de análise do Magistrado e será analisada pelo Juízo, s.m.j." Vale MESMO quando
@@ -59,6 +65,45 @@ parafrasear):
    "Observação: DEJT divulgado em 9, 10 e 11/6/2010";
 7. na Metodologia, Súmula 364 TST completa.
 Itálico e negrito exatos de cada trecho: memória "formatacao-docx-laudo".
+
+## Checklist completo do laudo de armazenamento em edifício (OJ 385)
+
+Base: leitura integral dos laudos 40, 55, 68 e 107 e dos esclarecimentos 40 e 55. Faltar qualquer
+item é o erro mais comum na primeira minuta. Na ordem:
+1. Admissão/demissão + linha própria "Início do período imprescrito em [data]." (5 anos antes do
+   ajuizamento; sem a data exata, perguntar, nunca inventar).
+2. Diligência Pericial. Os 4 modelos registram início e término, mas a regra geral vigente desde
+   29/08/2026 é registrar SÓ o início (pericia-laudo); seguir a regra vigente.
+3. Descrição do local de trabalho: estrutura do prédio (pavimentos, subsolo, onde ficam
+   tanques/geradores).
+4. Síntese da descrição das atividades arguidas em inicial (título exato).
+5. Síntese da contestação da Reclamada (uma seção por Reclamada).
+6. Informações Preliminares: parágrafo curto situando onde o Reclamante ficou lotado.
+7. Descrição das atividades conforme oitivas.
+8. Documentos evidenciados + registro expresso do que NÃO foi apresentado (projeto das
+   instalações, APR/APP, Certificado de Bombeiros, histórico de modificação).
+9. Equipamentos de proteção individual: frase única de periculosidade.
+10. "NR 20 - Segurança e saúde no trabalho com inflamáveis e combustíveis", ANTES da Metodologia:
+    transcrição literal dos itens 20.1.1, 20.1.2 e do Anexo III "TANQUE DE LÍQUIDOS INFLAMÁVEIS NO
+    INTERIOR DE EDIFÍCIOS" (itens 1, 2, 2.1 e alíneas a a l), fechando com o registro factual do
+    que não foi comprovado quanto à instalação.
+11. Metodologia: parágrafo padrão + "A Periculosidade consiste nas exposições dadas à atividade,
+    operação e permanência em área de risco." + Súmula 364 completa (I, II e observação da Res.
+    209/2016) + "Estudadas na avaliação somente as exposições... eventuais e ocasionais
+    (fortuitas)."
+12. Avaliação da Periculosidade: listagem dos Anexos 1 a 5 (+ radiações), o aplicável em negrito;
+    heading "Anexo 2 da NR 16 - Atividades e Operações Perigosas com Inflamáveis".
+13. Bloco literal do Anexo 2: itens 1-2 + tabela "Atividades | Adicional de 30%"; "Para os efeitos
+    desta Norma Regulamentadora - NR entende-se como:"; item III com alíneas a) (negrito e
+    itálico) e b); "(Grifo meu)" à direita; "Já o item 3... considera as áreas de risco" + tabela
+    "d. Tanques de inflamáveis líquidos | Toda a bacia de segurança".
+14. "Orientação Jurisprudencial nº 385 do TST": heading em negrito, corpo da OJ em itálico,
+    "Observação: DEJT divulgado em 9, 10 e 11/6/2010" em itálico.
+15. Aplicação ao caso: 1-2 parágrafos com os fatos (onde ficam tanques/geradores, se dentro da
+    projeção horizontal, o que o Reclamante declarou sobre acesso) + fecho da OJ 385 ao Juízo.
+16. Conclusão: repete os fatos + a mesma fórmula; diligência que não cobriu todas as unidades
+    trabalhadas: registrar a limitação na própria Conclusão.
+17. Quesitos alinhados à mesma fórmula (nenhuma negativa isolada).
 
 ## Eletricidade (Anexo 4 + NR 10)
 

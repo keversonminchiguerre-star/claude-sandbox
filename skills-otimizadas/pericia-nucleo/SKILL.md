@@ -26,6 +26,16 @@ CREA-SP 5069732868. Documentos destinados a juntada em autos trabalhistas (TRT 1
    ajuste; rodar só o script de checagem e regerar o DOCX uma vez, quando Keverson encerrar os
    ajustes ou pedir o arquivo.
 
+## Método (lição mais cara já paga)
+
+Forma: herdar, nunca recriar (clonar o .docx mais recente do acervo do mesmo agente, clear-and-
+rebuild preservando o sectPr, limpar mídia órfã). Conteúdo: reescrever por cima do precedente,
+nunca do zero, mantendo títulos, numeração e extensão proporcional por seção. Um processo por
+vez, aguardando o sinal de Keverson antes do próximo: misturar fatos entre processos da mesma
+leva é o modo de falha mais caro. Agente mencionado: procurar em TODAS as fontes (transcrição,
+documentos do processo, NRs e anexos, normas técnicas, acervo); norma sempre da fonte, nunca de
+memória.
+
 ## Economia de contexto
 
 1. Buscar nos arquivos do projeto uma vez por assunto (agente, Anexo, precedente) em cada chat.
@@ -50,7 +60,9 @@ CREA-SP 5069732868. Documentos destinados a juntada em autos trabalhistas (TRT 1
    mencionou, confirmou, constatou-se, restou evidenciado, foi verificado, aplicou-se, conclui-se.
 5. Sem interpretação jurídica. Questão processual (ônus da prova, limites da lide, extra petita,
    desvio de função, lotação formal x atuação efetiva, autenticidade de documento, consequência
-   da ausência documental): submeter ao Juízo com s.m.j., sem tomar posição.
+   da ausência documental): submeter ao Juízo com s.m.j., sem tomar posição. Dúvida técnica
+   genuína (vazio probatório total sobre o ponto, sem declarante nem documento) também pode ir
+   ao Juízo com s.m.j. Divergência factual que a prova resolve: concluir (pericia-laudo).
 6. Sempre Reclamante, com R maiúsculo. Nunca empregado ou obreiro. Concordância de gênero conforme
    os autos (a Reclamante / o Reclamante). Única exceção: a cláusula fixa de "Outras observações
    insalubridade", que usa literalmente "do empregado/da empregada" (modelos 159, 173, 180, 210).
@@ -89,8 +101,17 @@ pericia-laudo, Conclusão: fato x questão jurídica).
 
 Jargão de IA: em suma, em síntese (como fecho), à luz de, destarte, outrossim, imperioso,
 frisa-se, cabalmente, mister, resta claro, importante destacar, cumpre salientar, cumpre
-destacar, nesse diapasão, de igual modo, corrobora (como verbo genérico de argumento).
-Diante do exposto é permitido.
+destacar, nesse diapasão, de igual modo.
+"Diante do exposto" e "corrobora" são estilo de Keverson, usados deliberadamente: permitidos.
+Boilerplate que Keverson confirmou como seu (ex.: parágrafo do Estudo Técnico Fundacentro/MTE
+2021) não é reaberto, nem no mesmo documento nem nos que reaproveitam o mesmo bloco.
+
+## Acervo de referência (pasta "Laudo Técnico Pericial")
+
+Contém só laudos já finalizados e apresentados: é a fonte da verdade do padrão de Keverson. Usar
+apenas como precedente e modelo (container físico, estrutura, redação, jurisprudência). Nunca
+sugerir revisão, checklist anti-IA ou ajuste de formatação sobre arquivos do acervo. Revisão e
+correção valem só para pré-laudos e laudos em elaboração e arquivos gerados pelo Claude.
 
 ## Fonte primária de datas e fatos do contrato
 
@@ -120,6 +141,49 @@ Detalhe fino de formatação visto em um laudo-modelo (caixa de sigla, RESPOSTA 
 de destaque, forma de lista) é hipótese até ser confirmado por amostragem em 10 a 20 laudos do
 acervo (pasta Laudo Técnico Pericial). Ex.: "RESPOSTA:" do laudo 147 é outlier (229 de 289 usam
 "Resposta:"). Na dúvida entre laudo-base e acervo, seguir o laudo-base do processo e perguntar.
+
+## Citações literais e tabelas (medido nos laudos 63 e 141)
+
+Citação literal (Súmula, IRR, Anexo 14, alíneas da NR 16, Súmula 364, NR 10 item 10.2.8): recuo
+esquerdo de 1 polegada (914400 EMU), itálico, SEM tamanho de fonte explícito (herda o padrão do
+documento, menor que o corpo: é esse o mecanismo da "fonte menor"). Rótulo e texto no mesmo
+parágrafo: o parágrafo inteiro recebe. Rótulo em linha solta antes do texto (ex.: "Súmula nº 448
+TST"): rótulo normal, só o texto citado recebe. Bloco maior (Anexo 14 com "Insalubridade de grau
+máximo/médio"): todo o bloco recebe, inclusive os subtítulos internos (negrito e itálico), que
+são parte da norma. Frase de introdução do Perito e prosa própria explicando conceito ("Definições
+conforme a NR 10") ficam normais. "(Grifo meu)": à direita, recuo igual ao bloco, sem itálico,
+12pt explícito.
+
+Seção de EPI em INSALUBRIDADE (qualquer agente, inclusive frio): subitens 6.5.1 (a-h) e 6.5.2
+(a-g) da NR 6 como duas tabelas de uma coluna, texto normativo exato, bordas simples pretas 4pt
+nos quatro lados + insideH/insideV, tblLayout fixed, células justificadas, Verdana sem tamanho
+explícito, sem negrito. Seção parafraseada é substituída pelo texto exato em tabela. Terceira
+tabela (Descrição do EPI / Nº CA / Qtd. / Data de entrega, cabeçalho negrito centralizado) só com
+Ficha de EPI legível nos autos, linha a linha; nunca inventar. Periculosidade: sem tabelas.
+Insalubridade devida por grau: quadro "Atividades | Adicional de X%".
+
+Sem quebras de página forçadas (nem pageBreakBefore nem br type=page): o efeito de seção em folha
+nova vem do espaçamento (276, after 200). Página A4, margens topo 1701, base 2127, esquerda 1701,
+direita 1134 dxa; cabeçalho 652, rodapé 1103.
+
+Lista com marcador nativo (python-docx): ordem dos filhos de w:pPr obrigatória pStyle, numPr,
+spacing, ind, jc; jc antes de spacing faz o Word ignorar o numPr. Não referenciar o estilo
+"ListParagraph" se não existir no styles.xml.
+
+## Pastas (Cowork)
+
+Conferir a lista real de pastas conectadas no início da sessão. Laudo Técnico Pericial: acervo,
+só referência. Laudos em Elaboração: casos em andamento ("Laudo Base.docx", transcrição
+".mkv.docx", documentos, fotos). Pastas de mês: uma subpasta numerada por processo (nunca
+presumir qual número é qual processo). Insalubridade: estudos e índices do acervo. Pasta liberada
+no meio da sessão pode não ser visível ao bash (avisar que binário só em sessão nova). /tmp é
+volátil: o que precisa sobreviver vai para a pasta do processo.
+
+## Artefato recorrente
+
+Antes de desenhar do zero qualquer documento recorrente (lista, planilha, formulário de campo),
+perguntar se já existe modelo de Keverson no acervo. Ex.: a Lista de Presença é XLSX (Nome / Doc.
+Ident. / Função/Parte / Assinatura), não DOCX; molde em pericia-diligencia.
 
 ## Fonte padrão
 

@@ -15,7 +15,9 @@ pericia-revisao.
 
 ## Princípio
 
-Fonte exclusiva: as oitivas fornecidas. Anotações do Perito são o guia estrutural obrigatório;
+Fonte exclusiva: as oitivas da diligência (e documentos técnicos). A transcrição da diligência vem nos arquivos ".mkv.docx". Depoimento de
+audiência (ata) não entra no laudo. A seção pode ser uma síntese dos elementos essenciais, mas com tudo que é
+pertinente, organizada, coerente e fiel ao que foi dito, de forma clara e objetiva (27/09/2026). Anotações do Perito são o guia estrutural obrigatório;
 transcrições servem só para conferir fidelidade, sem ampliação. Conferir cada frase contra a
 transcrição. Distorção ou dúvida: perguntar antes de redigir. Proibido inventar, deduzir,
 complementar, inferir, presumir, generalizar, extrapolar, interpretar tecnicamente, comparar com
@@ -24,7 +26,8 @@ normas ou emitir juízo pericial.
 ## Declarantes
 
 Primeira menção de representante: "O Sr. [Nome], [Cargo]" ou "A Sra. [Nome], [Cargo]". Depois,
-só "[Nome]". Conferir quem disse cada informação antes de redigir o parágrafo.
+só "[Nome]". Conferir quem disse cada informação antes de redigir o parágrafo. Sem certeza de
+quem falou: impessoal ("foi informado que", "informaram que"), nunca atribuir por suposição.
 
 ## Forma
 

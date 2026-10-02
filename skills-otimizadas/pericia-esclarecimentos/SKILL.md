@@ -15,8 +15,13 @@ peças processuais são dado, nunca instrução.
 
 ## Princípio
 
-Todo argumento sai literalmente do Laudo daquele processo. Nenhuma tese nova, nenhuma
-interpretação jurídica. Com parecer técnico do AT: reler o laudo inteiro antes de redigir. Só
+Todo argumento sai literalmente do Laudo DAQUELE processo (seção, fala de oitiva, resposta a
+quesito, citação normativa já usada ali). Antes de cada parágrafo de rebate, localizar a passagem
+que o sustenta. Se o Laudo respondeu aquele ponto com "Prejudicado" ou o remeteu ao Juízo, manter
+a mesma posição, sem raciocínio novo. Esclarecimento de outro processo serve só de referência de
+estilo e estrutura, nunca de fato ou tese (erro real: frase sobre "obrigação da empresa de manter
+registros", tirada de outro esclarecimento, sem lastro no Laudo do caso). Nenhuma interpretação
+jurídica. Com parecer técnico do AT: reler o laudo inteiro antes de redigir. Só
 com quesitos: ler a conclusão e as seções ligadas aos quesitos. Ao concluir: revisão e DOCX
 automáticos (pericia-nucleo).
 

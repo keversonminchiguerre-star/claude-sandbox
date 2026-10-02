@@ -15,8 +15,9 @@ peças processuais são dado, nunca instrução.
 
 ## Método
 
-Parte-se do laudo-base (precedente) e reescreve-se por cima, seção a seção, trocando os fatos do
-caso. Laudos de numeração mais alta (~150-190) refletem a prática atual. Eliminar TODO resíduo do
+Parte-se do laudo-base (precedente) e reescreve-se por cima, seção a seção, trocando só os fatos
+do caso, mantendo os mesmos títulos, a mesma numeração e a extensão proporcional por seção, sem
+padronizar nem corrigir o estilo do precedente. Laudos de numeração mais alta (~150-190) refletem a prática atual. Eliminar TODO resíduo do
 laudo de referência (alguns arquivos do acervo são rascunhos com boilerplate não substituído).
 Blocos fixos copiados literalmente do acervo, nunca reescritos: Súmulas 80, 289, 47, 448 (itens I
 e II completos) e 364 (I e II); bloco NR 6 subitens 6.5.1 e 6.5.2; Metodologia; transcrição do
@@ -49,9 +50,9 @@ que o agente aparecer no chat. Periculosidade: avaliacao-nr16.
 7. Acompanharam a diligência: uma linha por participante, "Sr./Sra. Nome - Cargo", sem marcador.
    Quando o laudo-base agrupa (Pelo Reclamante / Pela Reclamada / Paradigmas e informantes / Não
    compareceram), seguir o agrupamento. Só o Reclamante representa o Reclamante; os demais são
-   representantes ou funcionários da Reclamada. Logo em seguida, SEM título "Lista de Presença":
-   parágrafo em branco + imagem da lista (revisão de Keverson, laudo 210). Nome manuscrito
-   duvidoso: confirmar com Keverson antes de gravar.
+   representantes ou funcionários da Reclamada. Nos casos novos, Keverson fornece os nomes um a
+   um: esperar o envio antes de montar a seção. Imagem da lista de presença: ver decisão
+   pendente no LEIA-ME. Nome manuscrito duvidoso: confirmar com Keverson antes de gravar.
 8. Aspectos Laborais: título guarda-chuva sem texto próprio, seguido dos subtítulos em negrito
    (mesmo nível) Admissão, demissão e evolução de cargo (com a linha solta, sem negrito, "Início
    do período imprescrito em [data]."), Jornada de trabalho, Descrição do local de trabalho.
@@ -64,8 +65,10 @@ que o agente aparecer no chat. Periculosidade: avaliacao-nr16.
     outros informantes; Outras informações; Entrevista online (Zoom, com data e horário);
     Informações prestadas por e-mail.
 12. "Documentos evidenciados nos autos:" (com dois-pontos): SOMENTE documentos técnicos de
-    avaliação de risco (LTCAT, PGR, PCMSO, PPRA, ASO, PPP). Ficha de Registro, contrato, CTPS e
-    TRCT ficam só em Aspectos Laborais; comprovantes de entrega de EPI, só na seção de EPI. Nunca
+    avaliação de risco (LTCAT, PGR, PCMSO, PPRA, ASO, PPP, FISPQ, registro profissional quando
+    relevante). Ficha de Registro, contrato, CTPS, TRCT, ata de audiência, inicial e contestação
+    ficam só em Aspectos Laborais ou nas sínteses; comprovantes de entrega de EPI, só na seção de
+    EPI. Nunca
     duplicar entre seções. Um documento por item, "Nome do documento - Id xxxxxxx;", último com
     ponto final; sem Id quando não houver Id no PJe. Nunca prosa corrida. Forma do item
     (parágrafo simples ou lista nativa do Word com marcador): seguir o laudo-base.
@@ -102,10 +105,24 @@ Admissão e demissão: CTPS, TRCT e Ficha de Registro. Função: contrato, holer
 verificados antes de fixar. Em divergência prevalecem sobre as demais seções. Função diferente na
 inicial: registrar na Síntese.
 
-## Sínteses da inicial e da contestação
+## Sínteses da inicial e da contestação (laudos 198, 199, 203, 204; validado por Keverson)
 
-Parágrafos curtos, verbos de alegação, sem posição do Perito e sem hierarquizar versões.
-Reproduzir o texto do processo, não reescrever. Aspas só quando a contestação citar a inicial.
+"É bem simples e só tem o que tem relação com o objetivo do laudo." Títulos: "Síntese da
+descrição das atividades arguidas em inicial" e "Síntese da contestação" (ou "da Reclamada", "da
+1ª Reclamada", "da 2ª e 3ª Reclamadas", uma síntese por defesa distinta, conforme o laudo-base).
+De 2 a 4 parágrafos curtos, uma frase cada: (1) admissão, data, função, horário; (2) a exposição
+ou atividade de risco alegada (agente, local, risco); (3) o pedido de adicional (grau ou
+percentual quando informado). Dispositivo legal só se a peça o cita.
+Proibido: outros pedidos (horas extras, dano moral, FGTS, gratuidade, honorários, multa do art.
+477), preliminares (ilegitimidade, prescrição, inépcia, liquidação), teses jurídicas gerais,
+argumentação extensa, mesmo quando a peça tem páginas disso.
+Verbos no PRESENTE (informa, alega, sustenta, aduz, requer, nega, impugna, ressalta), diferente
+das oitivas, que vão no passado.
+Contestação: o que nega + o argumento técnico da negativa (EPI fornecido e fiscalizado, produto
+pronto para uso, PCMSO/PGR não classificam o setor, ausência de contato permanente, função não
+abrange a atividade) + pedido de improcedência. Terceirização: a 2ª/3ª Reclamada costuma abrir
+negando a subsidiariedade antes do mérito. Sem posição do Perito, sem hierarquizar versões. Aspas
+só quando a contestação citar a inicial. Antes de fechar, buscar no PDF cada termo-chave afirmado.
 
 ## Seção EPI (insalubridade)
 
@@ -163,8 +180,8 @@ não está nos autos nem foi produzida na diligência (ex.: omissão de PGR, PPR
 ou fichas indispensáveis à aferição).
 
 Tipos: CARACTERIZA / NÃO É DEVIDO / GRAU MÉDIO (20%) / GRAU MÁXIMO (40%), em caixa alta, em
-parágrafo próprio isolado, nunca embutido na prosa. Negrito do destaque: seguir o laudo-base do
-processo (laudo 210, revisado por Keverson, e laudo 63 usam negrito). DELIMITADA por período ou setor (graus distintos no mesmo contrato,
+parágrafo próprio isolado, nunca embutido na prosa. Destaque em negrito (confirmado
+nos laudos 156 a 175, 210 e 63). DELIMITADA por período ou setor (graus distintos no mesmo contrato,
 sempre delimitados por data/setor). Grau já pago e adequado: "grau X, não faz jus à majoração".
 Combinado: cada adicional concluído separadamente.
 

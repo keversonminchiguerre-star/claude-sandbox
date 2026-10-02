@@ -96,9 +96,11 @@ autos, linha a linha. Nunca inventar CA, quantidade ou data.
 
 Sem quebras de página artificiais (nem pageBreakBefore nem br type=page).
 
-Clone de precedente: as fotos do precedente continuam no zip. Cruzar os ids r:embed e r:link de
-document.xml, headers e footers contra word/_rels/document.xml.rels e remover de word/media/ os
-arquivos sem referência e suas relações.
+Clone de precedente (técnica clear-and-rebuild): as fotos e a lista de presença do precedente
+continuam embutidas no zip mesmo sem aparecer no texto (caso real: 84 imagens de outro processo
+dentro do arquivo novo). Após salvar, rodar automaticamente
+`../pericia-revisao/scripts/limpar_midia.py <arquivo.docx> --limpar`. Fontes embutidas
+(word/fonts) não são contaminação; tamanho do arquivo sozinho não indica vazamento.
 
 ## Checklist de entrega
 

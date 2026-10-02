@@ -27,7 +27,7 @@ enunciados transcritos dos quesitos; todo o resto em Verdana. Corpo Verdana 12 j
 Separação entre blocos por linhas em branco, nunca por espaço de parágrafo. Títulos em negrito,
 justificados. Subtítulo adjacente ao título sem linha em branco. Cabeçalho, rodapé e contatos já
 estão no `scripts/gerar_base.py`. Quesitos no formato do pericia-nucleo (função Q). Destaque da
-conclusão em parágrafo próprio, caixa alta, negrito conforme o laudo-base. Assinatura: Rio de Janeiro, [data]. + nome centralizado sem
+conclusão em parágrafo próprio, caixa alta, negrito. Assinatura: Rio de Janeiro, [data]. + nome centralizado sem
 negrito + Perito do Juízo. Dados bancários em bloco de linhas à esquerda.
 
 ## Imagens
@@ -43,10 +43,12 @@ alvo abaixo de 2 MB com dez fotos).
    margens já configuradas). Não ler os scripts: só importar e executar.
 2. Rodar `scripts/posprocessar.py <gerado.docx> <laudo_referencia.docx>`.
 3. "(Grifo meu)": aplicar bold=True só no trecho da alínea destacada; etiqueta alinhada à
-   direita. Destaque da conclusão em parágrafo próprio, caixa alta, negrito conforme o laudo-base.
-4. Verificar o arquivo final com `../pericia-revisao/scripts/checar.py <arquivo.docx>` e por
+   direita. Destaque da conclusão em parágrafo próprio, caixa alta, negrito.
+4. Arquivo montado a partir de outro .docx (precedente): rodar
+   `../pericia-revisao/scripts/limpar_midia.py <arquivo.docx> --limpar`.
+5. Verificar o arquivo final com `../pericia-revisao/scripts/checar.py <arquivo.docx>` e por
    script conferir quesitos em Arial 11 e a contagem de [a confirmar], sem reler o documento no
    chat. Corrigir o que aparecer e reportar só o resultado.
-5. Se a peça ainda não passou pela pericia-revisao neste chat, rodá-la antes de entregar.
+6. Se a peça ainda não passou pela pericia-revisao neste chat, rodá-la antes de entregar.
 
 Scripts em /tmp somem quando o ambiente reinicia: os desta skill são a cópia permanente.

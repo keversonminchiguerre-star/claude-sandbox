@@ -84,11 +84,18 @@ def build_resumo(out_path, proc):
     add_section_header(doc, "Diligência")
     add_field(doc, "Data, horário e local:", proc["diligencia"])
 
-    add_section_header(doc, "Histórico contratual")
-    add_field(doc, "Admissão/demissão e evolução de cargos e funções:", proc["admissao"])
+    # Ação coletiva (sindicato autor): rótulos sobrescrevíveis e local objeto da perícia
+    if proc.get("local_trabalho"):
+        add_section_header(doc, proc.get("titulo_local", "Local de trabalho (dia a dia)"))
+        add_field(doc, proc.get("label_local", "Local:"), proc["local_trabalho"])
+
+    if proc.get("admissao") is not None:  # None = sem Reclamante individual: omite a seção
+        add_section_header(doc, proc.get("titulo_historico", "Histórico contratual"))
+        add_field(doc, proc.get("label_historico", "Admissão/demissão e evolução de cargos e funções:"),
+                  proc["admissao"])
 
     add_section_header(doc, "Síntese das alegações das partes")
-    add_field(doc, "Reclamante:", proc["sintese_inicial"])
+    add_field(doc, proc.get("label_sintese_inicial", "Reclamante:"), proc["sintese_inicial"])
     add_field(doc, "Reclamada(s):", proc["sintese_contestacao"])
 
     add_section_header(doc, "Agentes, documentação e EPI")

@@ -36,9 +36,20 @@ documentação apresentada, documentação não localizada, EPI); PONTOS DE ATEN
 
 Gerar com `scripts/resumo_diligencia.py` (formatação já embutida: Verdana 11, justificado, até
 duas páginas). Montar o dicionário `proc` com: numero, partes (lista de tuplas rótulo/valor),
-objetivo, diligencia, admissao, sintese_inicial, sintese_contestacao, agentes, documentos,
+objetivo, diligencia, local_trabalho (opcional, com titulo_local e label_local), admissao (None
+em ação coletiva), sintese_inicial, sintese_contestacao, agentes, documentos,
 documentos_ausentes (opcional), epi, particularidade, controvertido. Não ler o script: só
 executar.
+
+## Ação coletiva por substituição processual (sindicato autor)
+
+Não forçar o molde individual. Sem Reclamante nomeado: `admissao` = None (o script omite o
+Histórico contratual); `titulo_local` = "Estabelecimento(s) objeto da perícia", com
+`local_trabalho` e `label_local`; `label_sintese_inicial` = "Sindicato autor:" (ou o rótulo
+adequado). Conferir qual UNIDADE é objeto da perícia: PGR e LTCAT podem ser de unidade diferente
+do endereço de sede/CNPJ da inicial (endereço de sede não é o local real de exposição). Ata com
+conexão/reunião de processos e diligência conjunta: registrar em Particularidades e sinalizar se
+os autos do processo conexo estão na pasta.
 
 ## Lista de Presença (xlsx)
 

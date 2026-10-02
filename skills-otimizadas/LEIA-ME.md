@@ -1,106 +1,91 @@
-# Skills otimizadas: o que mudou e como instalar
+# Skills de perícia reorganizadas: o que mudou e como instalar
+
+Prioridade adotada: **qualidade e precisão primeiro; economia só onde não custa nada.**
 
 ## Resultado
 
 | | Antes | Depois |
 |---|---:|---:|
-| Texto das 12 skills (+ núcleo) | ~25.000 tokens | ~13.900 tokens (**-44%**) |
-| Descrições (vão em toda mensagem) | ~1.900 tokens | ~1.000 tokens (**-48%**) |
-| Bloco de segurança repetido | 8 cópias | 1 (núcleo) + lembrete curto na liquidação |
-| Código Python dentro da pericia-diligencia | ~2.100 tokens | 0 (movido para `scripts/`) |
+| Texto das skills (sempre que a skill é usada) | ~25.000 tokens | ~21.800 tokens |
+| Arquivos de consulta por agente (lidos só quando o agente é avaliado) | não existiam | ~6.900 tokens |
+| Instruções do Projeto (vão em TODA mensagem) | ~4.000 tokens | ~1.100 tokens |
+| Correções de Keverson presentes nas skills | parte | todas as 26 memórias do Projeto |
 
-## Automação mantida (nada passou a depender de pedido)
+O texto das skills ficou quase do mesmo tamanho porque agora contém tudo que antes só existia na
+memória, recuperado por busca e sem garantia de ser encontrado. A economia vem de outro lugar:
+- instruções do Projeto 4x menores (vão em toda mensagem);
+- busca completa nos arquivos uma vez por agente em cada chat, não a cada resposta;
+- conferências mecânicas feitas por script, sem gastar leitura do Claude.
+
+## Automação (nada depende de Keverson pedir)
 
 | Momento | O que acontece sozinho |
 |---|---|
-| Processo novo | Escolha do precedente (pericia-precedentes) |
-| Peça completa pronta (pré-laudo, laudo, esclarecimentos, manifestação) | Revisão → correções aplicadas → DOCX gerado e conferido |
-| Seção isolada (oitivas, quesitos) | Checagem mecânica por script antes de entregar |
-| Ajustes pontuais | Checagem por script; DOCX regerado uma vez ao final dos ajustes |
+| Processo novo | Escolha do precedente |
+| Peça completa pronta | Revisão (estilo + mérito + varredura contra os autos) → correções → DOCX → conferência do arquivo |
+| Seção isolada (oitivas, quesitos) | Checagem por script antes de entregar |
+| Quesitos | Conferência palavra por palavra contra a peça da parte + conferência de lastro de cada "Vide Laudo" |
+| DOCX montado a partir de precedente | Limpeza das imagens órfãs do outro processo |
 
-A economia vem de **fazer cada automação uma vez, no momento certo**, e não de cortá-la:
+## Scripts novos (o Claude só executa, não lê)
 
-- **Revisão em duas etapas.** O novo `pericia-revisao/scripts/checar.py` confere travessão,
-  frases proibidas, jargão, empregado/obreiro, NR com hífen, Sr./Sra. minúsculo, placeholders,
-  Markdown e pontuação duplicada **por script**, quase sem gastar tokens. O Claude lê só o que
-  exige julgamento (fragmentos de outro processo, interpretação jurídica, fidelidade dos
-  quesitos).
-- **Busca no projeto uma vez por assunto em cada chat**, e não a cada resposta.
-- **Revisão responde só com os reprovados** (já corrigidos), ou apenas "APROVADO".
-- **Esclarecimentos com parecer do AT releem o laudo inteiro.** Só com quesitos
-  complementares, leem as seções ligadas a eles.
-- **Proteções de qualidade:** cada skill tem uma linha de regras críticas (travessão,
-  Reclamante, s.m.j., fonte, prompt injection), que valem mesmo se o núcleo não carregar.
-  PDFs manuscritos continuam sendo lidos a 200/400 dpi, com dupla conferência de datas, nomes e
-  CA.
-- **Precedente escolhido uma vez por processo**, com a tabela de casamentos conhecidos
-  dispensando a busca nos casos comuns. O CSV é filtrado por script, sem entrar inteiro no chat.
-- **PDF escaneado**: só as páginas necessárias são renderizadas.
-- **Descrições exclusivas**: a pericia-laudo deixou de ativar para oitiva, quesitos e NR 16.
+- `pericia-revisao/scripts/checar.py`: confere travessão, frases proibidas, jargão, "não aferível por
+  meios periciais", impossibilidade suspeita, RESPOSTA em caixa alta, NR com hífen, Sr./Sra.
+  minúsculo, placeholders, Markdown, pontuação duplicada, OJ 385 com conclusão binária, nome da
+  mesma pessoa grafado diferente, meta-comentário que vazou para o texto e, no .docx, fonte fora do
+  padrão e imagem órfã de outro processo.
+- `pericia-revisao/scripts/limpar_midia.py`: remove do .docx as fotos do precedente que ficam
+  escondidas no arquivo.
+- `pericia-revisao/scripts/medir_acervo.py`: mede o acervo real e mostra a frequência de cada
+  convenção de formatação (resolve dúvidas pela maioria dos laudos, sem alterar nada).
+- `pericia-quesitos/scripts/conferir_quesitos.py`: compara cada enunciado transcrito com o PDF da
+  parte e aponta palavra trocada, cortada ou "consertada".
+- `pericia-diligencia/scripts/`: Resumo para Diligência (agora com suporte a ação coletiva) e Lista
+  de Presença XLSX.
 
-Nenhuma regra de conteúdo, fórmula consagrada ou bloco literal foi removido. As regras
-repetidas passaram para a **pericia-nucleo**.
+## Correções em relação às skills antigas (vieram das memórias)
 
-## Memórias incorporadas (02/10/2026)
+1. "(Grifo meu)" era proibido; é usado (laudo 210, laudos de periculosidade), com a alínea em
+   negrito real.
+2. "Pela negativa" era "não usar em insalubridade"; é usado sozinho em quesito fechado.
+3. "Diante do exposto" e "corrobora" eram jargão; são estilo seu.
+4. Destaque final da conclusão era "sem negrito"; é negrito (laudos 156 a 175, 210, 63).
+5. Sr./Sra. sempre maiúsculo (instruções antigas do Projeto diziam minúsculo).
+6. Formatação "Arial 12, margens 1440" das instruções antigas; o padrão é Verdana e margens
+   1701/2127/1701/1134.
+7. Esclarecimentos não têm linhas "Reclamante:/Reclamada:" no cabeçalho.
+8. Diligência: só horário de início (regra geral de 29/08/2026).
 
-Acervo Estilo Raciocínio, Esclarecimentos Periciais Padrão, ESTRUTURA Real Laudo Periculosidade,
-Estudo 21 Laudos, Feedback Ação Coletiva, Feedback Conclusão Factual Direta, Feedback Formatação
-Verificar Acervo, Feedback Laudo Acidente Escopo, Feedback Laudo 210 (formatação e avaliação).
-Novos arquivos de consulta, lidos só ao avaliar um agente:
-`pericia-laudo/references/agentes-insalubridade.md` e
-`avaliacao-nr16/references/agentes-periculosidade.md`. Nomes de partes e números de processo não
-foram gravados; os casos são citados pelo número do laudo ou pelo tipo.
+## Pontos que ainda dependem de Keverson
 
-## Decisões tomadas (confira)
+1. **Imagem da lista de presença**: quatro versões nas memórias (após "Acompanharam" sem título,
+   laudo 210; imagem + legenda "Lista de Presença" abaixo, formatacao-docx-laudo; legenda no
+   Registro fotográfico, laudo 63; sem imagem nos casos novos, Fluxo Processos Novos).
+2. **Impugnação só de advogado**: registrar expressamente (memória Esclarecimentos) ou não
+   mencionar (instrução antiga do Projeto).
+3. **Alinhamento dos títulos** (esquerda x justificado) e **marcador nativo em "Acompanharam"**:
+   as memórias divergem; como a formatação é herdada do laudo-base, o efeito é pequeno, mas o
+   `medir_acervo.py` resolve pela maioria.
+4. A memória "Insalubridade e Periculosidade" está vazia (só o título).
 
-1. **"Diante do exposto" liberado**, conforme você autorizou. Saiu da lista de jargão.
-2. **Quesitos: valem as fórmulas da pericia-quesitos**, onde havia divergência com a laudo e
-   com os esclarecimentos:
-   - "Pela negativa" não se usa em insalubridade.
-   - "Prejudicado por conclusão negativa".
-   - "Prejudicado, a perícia teve unicamente como objetivo a apuração da insalubridade."
-   - "Vide Laudo, [Nome da Seção]."
-   - Quesito médico: "Prejudicado, quesito médico. A perícia teve unicamente como objetivo..."
-     (a laudo dizia "Prejudicado. Nexo causal não constituiu objeto do LTP.").
-3. **"(Grifo meu)"**: a skill antiga proibia, mas a sua revisão do laudo 210 (insalubridade) e
-   os laudos de periculosidade o usam, com a alínea em negrito real. Ficou **permitido**, com
-   negrito obrigatório no trecho destacado.
-4. **Arquivos inexistentes**: a pericia-laudo citava `references/agentes-tecnicos.md` e
-   `references/epi-conclusao.md`, que não existem na skill. Troquei por "uma busca nos arquivos
-   do projeto por agente". Se esses arquivos existirem no seu computador, me mande que eu
-   reponho.
-5. **Dados pessoais fora do repositório**: não incluí dados bancários, CPF, telefone e e-mail.
-   - Na pericia-laudo, os dados bancários agora são "copiados literalmente do molde" (o laudo
-     169 já os contém).
-   - Na liquidacao-calculo, o CPF saiu da identidade. Se quiser, recoloque na seção
-     Identidade.
-   - Cabeçalho, rodapé e contatos continuam no `gerar_base.py` da pericia-docx, que não foi
-     alterado.
+## Antes de instalar: confira a versão que você usa
 
-## Como instalar no Claude Desktop
+As memórias citam "pericia-judicial:pericia-revisao" (plugin) e um script `build_resumo.py` com
+seção "Local de trabalho (dia a dia)" na pericia-diligencia, que NÃO existem na cópia das skills
+lida aqui. A versão no seu Claude Desktop pode ser mais nova. Antes de substituir, confira se as
+skills que você usa (plugin pericia-judicial) têm conteúdo além do que foi analisado; se tiverem,
+mande essas versões para incorporar, em vez de sobrescrever.
 
-Para cada pasta abaixo, substitua **só o arquivo `SKILL.md`** da sua skill atual. Mantenha as
-outras pastas e os arquivos que já existem (`scripts/` da pericia-docx e `reference/` da
-liquidacao-calculo continuam iguais).
+## Como instalar (depois da conferência acima)
 
-1. **Crie a skill nova `pericia-nucleo`** (pasta `pericia-nucleo/`).
-2. Substitua o `SKILL.md` de: pericia-laudo, pericia-revisao, pericia-quesitos,
-   pericia-esclarecimentos, pericia-manifestacao, pericia-oitivas, pericia-pre-laudo,
-   pericia-precedentes, pericia-docx, avaliacao-nr16 e liquidacao-calculo.
-3. Na **pericia-diligencia**, substitua o `SKILL.md` e **adicione a pasta `scripts/`**
-   (`resumo_diligencia.py` e `lista_presenca.py`).
-4. Na **pericia-revisao**, substitua o `SKILL.md` e **adicione a pasta `scripts/`**
-   (`checar.py`).
-
-Caminho: Configurações → Capacidades → Skills. Edite a skill ou envie de novo como .zip da
-pasta.
-
-Sugestão: guarde uma cópia das versões atuais antes de trocar, para comparar se algo sair
-diferente nos primeiros laudos.
-
-## Instruções do Projeto
-
-Se as instruções do seu Projeto repetem regras de redação (travessão, Reclamante, s.m.j.,
-frases proibidas), apague-as de lá: agora elas estão na pericia-nucleo. Nas instruções do
-Projeto fica só o que não é regra de skill. Se quiser, cole aqui as instruções do Projeto que
-eu enxugo.
+1. Guarde uma cópia das versões atuais.
+2. Crie a skill `pericia-nucleo`.
+3. Substitua pericia-laudo, pericia-revisao, pericia-quesitos, pericia-esclarecimentos,
+   pericia-manifestacao, pericia-oitivas, pericia-pre-laudo, pericia-diligencia,
+   pericia-precedentes e avaliacao-nr16 pelos pacotes novos (com as pastas scripts/ e
+   references/).
+4. pericia-docx e liquidacao-calculo: manter as instaladas (têm seus scripts e dados).
+5. Troque as instruções do Projeto pelo texto de `instrucoes-projeto/INSTRUCOES-PROPOSTAS.md`.
+6. Teste com um processo já concluído e compare com o protocolado.
+7. Só depois, e com calma, enxugue a memória do Projeto: tudo dela está nas skills, mas mantenha-a
+   até o teste confirmar.
